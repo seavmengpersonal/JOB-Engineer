@@ -1,0 +1,85 @@
+//*****************************************//
+V2.2.4 => May 2014
+//*****************************************//
+Modified		changelog.txt
+Modified		install/
+
+
+
+//*****************************************//
+V2.2.3 => May 2014
+//*****************************************//
+
+Modified	includes/forms/submit-job/submit-job-form.php
+Modified	includes/job-form.php
+Modified	wrapper.php
+Modified	style.php
+
+
+//*****************************************//
+V2.2.2 => April 2014
+//*****************************************//
+
+Modified		functions.php
+
+
+//*****************************************//
+V2.2.1 => April 2014
+//*****************************************//
+
+Modified		style.css
+Modified		styles/style-pro-blue.css
+Modified		styles/style-pro-gray.css
+Modified		styles/style-pro-green.css
+Modified		styles/style-pro-orange.css
+Modified		styles/style-pro-red.css
+Modified		archive-job_listing.php
+Modified		tpl-login.php
+Modified 		styles/responsive.css
+
+
+
+//*****************************************//
+V2.2 => October 2013
+//*****************************************//
+Added			install/
+Modified		loop-job.php
+Modified		loop-job-featured.php
+Modified		admin/options/jobtheme_options.php
+Modified		style.css
+Modified		tpl-login.php
+Modified		tpl-profile.php
+Modified		includes/forms/register/register-form.php
+Modified		includes/forms/preview-job-form.php
+
+
+//*****************************************//
+V2.1 => September 2013
+//*****************************************//
+Added 			styles/responsive.css
+Added			header-options.php
+Modified		styles/style-pro-blue.css
+Modified		styles/style-pro-gray.css
+Modified		styles/style-pro-green.css
+Modified		styles/style-pro-orange.css
+Modified		styles/style-pro-red.css
+Modified		archive-job_listing.php
+Modified		archive-resume.php
+Modified		changed_files.txt
+Modified		functions.php
+Modified		header-resume-search.php
+Modified		header-search.php
+Modified		header.php
+Modified		includes/featured-jobs.php
+Modified		includes/indeed/theme-indeed.php
+Modified		index.php
+Modified		loop-job.php
+Modified		loop-resume.php
+Modified		search-resume.php
+Modified		search.php
+Modified		single-job_listing.php
+Modified		single-resume.php
+Modified		style.css
+Modified		taxonomy-job.php
+Modified		tpl-job-seeker-dashboard.php
+Modified		wrapper.php

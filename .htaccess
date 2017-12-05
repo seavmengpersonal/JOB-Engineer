@@ -1,0 +1,9 @@
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /project-freelance/jobs/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /project-freelance/jobs/index.php [L]
+</IfModule>

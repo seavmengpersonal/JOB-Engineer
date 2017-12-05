@@ -1,0 +1,10 @@
+User-agent: *
+#Allow: /www.khmer-engieeringjob.com/jobs
+
+Sitemap: http://khmer-engineeringjob.com/sitemap.xml
+
+User-Agent: Googlebot
+Disallow: /print
+Allow: /
+Disallow: /wp-admin
+Disallow: /downloads

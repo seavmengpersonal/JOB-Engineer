@@ -1,0 +1,117 @@
+Thank You for purchasing Jobsapp, A Super premium job board theme.
+****************************************************
+//Description:
+****************************************************
+Jobsapp is super premium Jobroller child theme. It comes with clean & modern design.
+Jobsapp is an incredibly powerful, super flexible theme, Packed with tons of features and options and enhanced with well-studied ad areas to monetize your website.
+
+Easy to customize via theme option to have a unique look & feel,
+All this and more make Jobsapp the perfect choice for HR professionals, Agencies, companies, blogger and niches’ hunters that they are looking to market themselves and rise above competition.
+
+
+****************************************************
+// Features
+****************************************************
+
+- Theme options panel
+- Responsive layout
+- 6 Preset colors
+- Unlimited colors
+- Unlimited backgrounds
+- Patrterns ready
+- Featured companies' logos ( widgets)
+- Drop down menus
+- Advertising module
+- Revolution Slider included
+- Jobs by location (New custom taxonomy)
+- New registration and Login page
+- New fields in registration (First and Last name,Phone,..)
+- 2 Header areas ( Customized through the theme options)
+- Footer widgets
+- Much more !
+
+****************************************************
+// Installation 
+****************************************************
+
+1. Extract zip in the /wp-content/themes/ directory.
+2. Activate the theme through the ‘Appearance’ menu in WordPress.
+3- It's done :)
+PS: Make sure the folder of the parent jobroller is named /jobroller ( so it appears like this: /themes/jobroller/ )
+
+Requirements : This theme is a premium Jobroller childtheme, You need your own Jobroller theme to make this theme works.
+Compatible: Jobroller 1.7
+
+****************************************************
+// Jobsapp Theme options.
+****************************************************
+The theme options panel will appear just after you activate the theme, in the end of the sub menus of wordpress admin dashboard.
+Through this panel you find the following sections:
+
+1- GENERAL SETTINGS:
+
+-- Visual (logo, favicon,..): This section to manage the logo and favicon of your site, and the social networks accounts.
+-- Home settings (tabs): You can manage the tabs of the home page, titles and positions.
+-- Layouts: You can use this sub section to control the layout of your site, sidebar to the left or to the right side, and you choose how many widgets' areas you want to display in your footter.
+-- Home page content: Use this section to add content in your home page, text and images. absolutely HTML validated option.
+-- Register page content: Using this section, You can add content,list of services for both roles of users, also add images to the registration page (login)
+
+
+2- APPEARANCE:
+
+-- Theme settings: This is the extended theme options, you can control the appearance of your site, color schemes, backgrounds, background image,patterns, everything.
+-- Font colors: Simply, change the colors of your fonts, the content font color of the heading one.
+-- Typography: You can change the typography of your texts, using google fonts, very dynamically, You can switch the font in a snap.
+
+3- ADVERTISING SETTINGS:
+
+-- Home sidebar: We have added an area in home page sidebar, this area can bring lot of click for you daily, Just manage to add you ad in this area using this option.
+-- Header spot: You can add big banner under the menu by using this option.
+-- Footer spot: You can add a banner on top of the footer area.
+-- Job page: This section can control 2 spots inside job pages, One in front of the logo, You can add a 300X300 banner, also another spot under the actions.
+-- Job listings: You can add adsense between jobs to increase the hits, you choose after how many jobs you want to display your adsense.Smart function, né?
+
+Note: All the spots can be controled by the size and positions 
+
+
+****************************************************
+// Configuring Jobsapp (Menus and Widgets)
+****************************************************
+1- custom Menus:
+
+To manage the primary menu (header) go to your wordpress dashboard=>Appearance=>Menu.
+
+In theme locations, you find 3 theme locations, primary, top nav and footer menu.
+
+The main menu is labeled as Primary menu (to change it, Create your own custom menu and select it in theme location).
+
+The footer menu is labeled as Footer menu (to change it, Create your own custom menu and select it in theme location).
+Note: The top nav location is disabled for this theme,Hence it will make no affect on theme.
+
+
+****************************************************
+// 2- Home page advertising areas:
+****************************************************
+
+This is a new widget, to add logos under the banner in home page:
+
+- Go to your wordpress dashboard=>Appearance=>widgets.
+- Drag and drop the widget named "Jobsapp banner featured ads" into the sidebar "Home featured"
+- You upload the logos to your site , then change the urls of their images.
+
+********************************************************************************************************
+3- More widgets and sidebars:
+a): Login form (This shows the login form in any sidebar of your web site)
+b): Contact details ( this shows a list of contact details of the website, ex phone,Fax, Email...), this to be used for example in the recruiter sidebar.
+c): Search widget: This allows you to add a search form in the sidebar of your site.
+
+********************************************************************************************************
+4- Footer column:
+We have created new sidebars areas for the footer, just drag and drop the widget into teh sidebar "Footer" to place text,menu or even twitter real time feeds in the footer of your site.
+
+Note: You can control how many column you want for your footer by using our theme options => layouts.
+
+********************************************************************************************************
+For help and support, please feel free to contact us at contact@jobthemes.com
+
+Enjoy your premium child theme!

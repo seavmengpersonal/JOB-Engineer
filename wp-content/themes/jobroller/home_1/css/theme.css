@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'arial', serif;
+    background-color: #E9EBEE;
+    font-size: 14px;
+    line-height: 22px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'roboto', serif
+}
+
+ul.navbar-nav > li.pro > a {
+    font-size: 16px;
+}
+
+ul.widgets li{
+	list-style:none !important;
+}

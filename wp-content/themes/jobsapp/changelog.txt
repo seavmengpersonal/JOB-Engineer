@@ -1,0 +1,20 @@
+2.2.4 => 09/04/2014
+	/* Revolution slider updated
+
+
+
+2.2.3 => May 2014
+	/* Compatible with Jobroller 1.7.3 // See full changelog of jobroller
+
+
+2.2 - 01/22/2014
+Fixes:
+	/* Compatible with Jobroller 1.7.2
+	/* Added featured logos slider
+	/* Added sub menus to the primary navigation
+	/* Fixed responsiveness css minor bugs
+	/* Added translation settings
+	/* Fixed pagination in job lister dashboard
+	/* Fixed minor css bugs
+	/* Fixed logo alignement
+	/* See changelogs of Jobroller 1.7.2

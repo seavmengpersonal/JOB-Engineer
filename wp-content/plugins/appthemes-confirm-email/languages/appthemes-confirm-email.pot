@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppThemes Confirm Email\n"
+"POT-Creation-Date: 2014-11-29 16:32+0100\n"
+"PO-Revision-Date: 2014-11-29 16:32+0100\n"
+"Last-Translator: AppThemes\n"
+"Language-Team: AppThemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: confirm-email.php:45
+msgid "Pending User"
+msgstr ""
+
+#: confirm-email.php:96
+msgid ""
+"AppThemes Confirm Email does not support the current theme. Please use one "
+"of AppThemes theme."
+msgstr ""
+
+#: confirm-email.php:98
+msgid ""
+"AppThemes Confirm Email does not support the current theme. Your theme not "
+"using the AppThemes themed login pages."
+msgstr ""
+
+#: confirm-email.php:100
+msgid "AppThemes Confirm Email does not support the current theme."
+msgstr ""
+
+#: confirm-email.php:213
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr ""
+
+#: confirm-email.php:215
+#, php-format
+msgid "Thanks for registering at %s!"
+msgstr ""
+
+#: confirm-email.php:216
+#, php-format
+msgid ""
+"To complete the activation of your account please click the following link: "
+"%s"
+msgstr ""
+
+#: confirm-email.php:260
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: You have not yet confirmed your e-mail address. <a "
+"href=\"%s\">Resend activation</a>?"
+msgstr ""
+
+#: confirm-email.php:295
+msgid ""
+"Your registration was successful but you must now confirm your email address "
+"before you can log in. Please check your email and click on the link "
+"provided."
+msgstr ""
+
+#: confirm-email.php:305
+msgid "Your account has been activated. You may now log in."
+msgstr ""
+
+#: confirm-email.php:307
+msgid ""
+"Your account has been activated. Please check your e-mail for your password."
+msgstr ""
+
+#: confirm-email.php:311
+msgid "<strong>ERROR</strong>: Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: confirm-email.php:319
+msgid "<strong>ERROR</strong>: Sorry, the activation e-mail could not be sent."
+msgstr ""
+
+#: confirm-email.php:322
+msgid ""
+"The activation e-mail has been sent to the e-mail address with which you "
+"registered. Please check your email and click on the link provided."
+msgstr ""
+
+#: confirm-email.php:325
+msgid "Your account is already activated. You can log in."
+msgstr ""
+
+#: confirm-email.php:424 confirm-email.php:428 confirm-email.php:434
+msgid "Invalid key"
+msgstr ""

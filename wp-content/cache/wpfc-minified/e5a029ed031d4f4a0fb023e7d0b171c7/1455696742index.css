@@ -1,0 +1,5053 @@
+@CHARSET "UTF-8";   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+}
+ol, ul {
+list-style: none;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+select, .submit {
+cursor:pointer;
+} html {
+font-size: 100%; height: 100%;
+}
+body {
+text-align: center;
+line-height: 1.4em;
+color: #555;
+background: #F0F0F0 url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/bg.png) repeat-x bottom fixed;
+font-size: 62.5%;
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+height: 100%;  }
+div#wrapper {
+font-size: 1.3em; }
+.inner {
+margin: 0 auto;
+text-align: left;
+width: 990px;
+}
+#header .logo_wrap {
+display: table;
+width: auto;
+}
+#mainNav, #logo {
+vertical-align: middle;
+display: table-cell;
+float: none !important;
+}
+#headerAd {
+float: right;
+}
+#listingAd {
+text-align: center;
+margin: 0 auto 1.54em;
+}
+#mainContent.nosearch {
+padding-top: 5px;
+}
+.clear {
+height: 0;
+font-size: 0;
+line-height: 0;
+clear: both;
+margin:0;
+padding: 0;
+outline: 0;
+}
+.sticky {}
+.gallery-caption {} .pad5 {
+padding:5px 0
+}
+.pad10 {
+padding:10px 0
+}
+.pad25 {
+padding:25px 0
+}
+.pad50 {
+padding:50px 0
+}
+.pad75 {
+padding:75px 0
+}
+.pad100 {
+padding:100px 0
+}
+form.account_form p.role {
+clear: none;
+overflow: hidden;
+zoom: 1;
+}
+p.role label {
+width: 49%;
+float: left;
+text-align: left;
+}
+table.resume_data_table {
+width: 100%;
+margin: 0 0 10px;
+border-collapse: collapse;
+}
+table.resume_data_table thead th {
+background: #fefefe;
+}
+table.resume_data_table thead th, table.resume_data_table thead td,
+table.resume_data_table tbody th, table.resume_data_table tbody td {
+border: 1px solid #ccc;
+padding: 8px;
+}
+table.resume_data_table tfoot th, table.resume_data_table tfoot td {
+border: 1px solid #ccc;
+}
+table.resume_data_table .show {
+background: #ddd;
+color: #333;
+padding: 12px;
+display: block;
+text-align: center;
+text-decoration: none !important;
+cursor: pointer;
+}
+table.resume_data_table .show:hover {
+background: #ccc;
+text-decoration: none;
+}
+table.resume_data_table .add_row {
+display: none;
+padding: 8px;
+}
+.date_field_wrap {
+width: 50%;
+padding: 0 7px;
+float: left;
+}
+.date_field_wrap select {
+float: left;
+width: 48% !important;
+margin: 6px 0 6px -7px !important;
+position: relative;
+vertical-align: middle;
+}
+.date_field_wrap input {
+float: right;
+width: 48% !important;
+margin: 0 -7px 0 0 !important;
+position: relative;
+vertical-align: middle;
+}
+div.prefs_job_types label,
+div.prefs_job_categories label {
+width: 46%;
+float: right;
+padding-top: 6px;
+}
+div.prefs_job_types li label,
+div.prefs_job_categories li label {
+width: 100%;
+}
+div.prefs_job_types ul,
+div.prefs_job_categories ul {
+width: 50%;
+padding: 7px;
+float: left;
+list-style: none outside !important;
+border: 1px solid #ddd;
+margin: 5px 0 !important;
+-moz-border-radius: 6px;
+-khtml-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+div.prefs_job_types ul li,
+div.prefs_job_categories ul li {
+margin: 0;
+padding: 6px;
+}
+div.prefs_job_types ul li label,
+div.prefs_job_categories ul li label {
+float: none;
+padding: 0;
+display: block;
+}
+p.attribution {
+float: right;
+font-size: 11px;
+color: #999 !important;
+}
+p.attribution a {
+color: #999 !important;
+text-decoration: none !important;
+}
+p.attribution img {
+vertical-align: middle;
+height: 16px;
+margin: -4px 0 0 0;
+} p {
+margin: 0 0 1.54em 0;
+font-size: 1em;
+line-height: 1.54em;
+}
+p.jobs {
+margin-bottom: 0 !important;
+}
+h1, h2, h3, h4, h5, h6, .pagetitle {
+color: #444;
+}
+#content h1 {
+font-size: 1.38em;
+font-weight: bold;
+line-height: 1.12em;
+margin-bottom: 1.12em;
+}
+#logo {
+font-size: 1em;
+line-height: 1em;
+}
+#searchform div div.near {
+float:right;
+}
+#searchform button.submit {
+text-indent:-9999px;
+}
+#content .section_header h1 {
+font-size: 1.54em;
+line-height: 1em;
+margin: 0 !important;
+}
+#content .section_header p.meta {
+margin: 5px 0 0 0;
+}
+#content h2 {
+font-size: 1.38em;
+font-weight: bold;
+line-height: 1.12em;
+margin-bottom: 1.12em;
+}
+#content h2.widget_title {
+margin-bottom: 0;
+font-size: 17px;
+text-shadow:1px 1px 0 #ebebeb;
+}
+.rss-balloon {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/rss-balloon.png) no-repeat scroll right 0 transparent;
+margin-top:-20px;
+padding:10px 0 20px;
+}
+.rss-balloon a {
+font-size:17px;
+font-weight: bold;
+color: #444444;
+margin:0;
+padding:0;
+text-shadow:1px 1px 0 #EBEBEB;
+}
+.twitter-balloon {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/twitter-balloon.png) no-repeat scroll right 15px transparent;
+margin-bottom:-10px;
+padding:20px 0 10px;
+border-top:1px dotted #D8D8D8;
+}
+.twitter-balloon a {
+font-size:17px;
+font-weight: bold;
+color: #444444;
+margin:0;
+padding:0;
+text-shadow:1px 1px 0 #EBEBEB;
+}
+p.sharethis {
+float:right;
+}
+p.stats {
+color:#AFAFAF;
+float:right;
+font-size:11px;
+margin-bottom:8px;
+padding:8px 0 0;
+}
+.textwidget {
+font-size: 12px;
+line-height: 1.54em;
+}
+#content h2 a, #content h1 a {
+text-decoration: none;
+}
+#content h3 {
+font-size: 1.23em;
+line-height: 1.25em;
+margin-bottom: 1.25em;
+font-weight: bold;
+}
+#content h4 {
+font-size: 1.08em; line-height: 1.43em;
+font-weight: bold;
+}
+#content h5 {
+font-size: 1.08em; line-height: 1.43em;
+font-weight: bold;
+color: #666;
+}
+#content h6 {
+font-size: 1em;
+line-height: 1.54em;
+color: #666;
+}
+.pagetitle {
+line-height: 1.6em;
+margin: 0 !important;
+}
+#content ul {
+list-style: circle inside;
+margin: 0 1.65em 1.65em;
+}
+#content ol {
+list-style: decimal inside;
+margin: 0 1.54em 1.54em;
+}
+#content ul li {
+line-height: 1.54em;
+}
+#content ol li {
+line-height: 1.54em;
+}
+p.success {
+background: #F8F6E8;
+border: 2px solid #F2EADD;
+padding: 12px;
+color: #896F44;
+margin: 0 0 20px !important;
+}
+p.expired {
+background: #F8F6E8;
+border: 2px solid #F2EADD;
+padding: 12px;
+color: #896F44;
+margin: 0 0 20px !important;
+}
+strong {
+font-weight: bold;
+}
+em {
+font-style: italic;
+}
+small {
+font-size: 0.6em;
+}
+h1 small {
+font-weight: normal;
+color: #999;
+}
+small.rss {
+float: right;
+line-height: 1em;
+}
+small.rss img {
+vertical-align: middle;
+}
+abbr, span.abbr {
+cursor: help;
+border-bottom: 1px dashed #999;
+}
+.center {
+text-align: center
+}
+.right {
+text-align: right;
+}
+.left {
+text-align: left;
+}
+blockquote {
+padding: 1px 20px;
+margin: 20px 20px 20px !important;
+font-style: italic;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+background: #eee;
+font-family: Georgia, Times New Roman, Times, serif;
+font-size: 1.1em;
+}
+blockquote p, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5 {
+margin: 10px 0;
+}
+cite {
+margin-left: 20px;
+color: #383838;
+font-style: italic;
+}
+cite strong {
+font-style: normal;
+font-weight: bold;
+}
+blockquote cite {
+margin-left: 0;
+}
+#content hr {
+border-color:#E3E3E3;
+border-style:solid;
+border-width:1px 0 0;
+clear:both;
+height:0;
+margin:10px 0 20px;
+}
+#content p.tags {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/tag.png) no-repeat scroll left 0 transparent;
+clear:left;
+padding:6px 0 6px 40px;
+font-weight:bold;
+width:50%;
+margin-bottom:0;
+}
+#content .socialwrap {
+margin:20px 0;
+padding:0 0 20px;
+border-bottom:1px solid #E4E4E4;
+}
+#content .socialleft {
+float:left;
+width:50%;
+margin:0 0 0 10px;
+}
+#content .socialright {
+float:right;
+margin:0 10px 0 0;
+}
+#content ul.social-ico {
+list-style:none outside none;
+margin:0;
+}
+#content li.twitter {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/twitter-ico.png) no-repeat scroll left center transparent;
+padding:5px 0 5px 25px;
+}
+#content li.twitter a {
+color:#0093BD;
+}
+#content li.rss {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/rss-ico.png) no-repeat scroll left center transparent;
+padding:5px 0 5px 25px;
+}
+#content li.rss a {
+color:#FF7800;
+} .stButton .stButton_gradient {
+padding:0 2px 1px !important;
+}
+.stButton .stBubble {
+line-height: 23px !important;
+padding:0 0 1px !important;
+} #content p.tags a {
+font-weight:normal;
+}
+#content a.more-link {
+font-weight:bold;
+}
+form.main_form .goback,
+form.account_form .goback {
+font-size: 1.2em;
+outline: 0;
+border: 0;
+background: #D8D8D8;
+color: #555;
+padding: 7px 10px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+vertical-align: middle;
+float: left;
+margin: 0 20px 0 0;
+}
+form.main_form .goback:hover {
+background: #2e4c79;
+color: #fff;
+cursor:pointer;
+} #your-profile {
+padding:0px;
+}
+#your-profile table.form-table td {
+padding:5px;
+}
+#your-profile table.form-table th {
+width: 125px;
+vertical-align: top;
+text-align: left;
+padding:15px 0 0;
+}
+#your-profile .field-hint {
+display: block;
+font-size:10px;
+clear: both;
+}
+span.description {
+font-size:10px;
+font-style:italic;
+}
+#pass-strength-result {
+border-style:solid;
+border-width:1px;
+float:left;
+margin:0 5px 12px 1px;
+padding:3px 5px;
+text-align:center;
+width:200px;
+}
+#pass-strength-result.good {
+background-color:#FFEC8B;
+border-color:#FFCC00 !important;
+}
+#pass-strength-result {
+background-color:#EEEEEE;
+border-color:#DDDDDD !important;
+}
+#pass-strength-result.bad {
+background-color:#FFB78C;
+border-color:#FF853C !important;
+}
+#pass-strength-result.strong {
+background-color:#C3FF88;
+border-color:#8DFF1C !important;
+}
+#pass-strength-result.short {
+background-color:#FFA0A0;
+border-color:#F04040 !important;
+}
+#profile .section_content {
+margin-bottom: 20px;
+}
+#profile .avatar {
+float: right;
+border: 1px solid #DADBDD !important;
+padding: 4px;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+#profile .social {
+margin: 0 0 20px;
+padding: 0 0 0 20px;
+list-style: none outside;
+overflow: hidden;
+}
+#profile .social li {
+margin: 0;
+padding: 0;
+background: none;
+}
+#profile .social li a {
+padding: 10px 0 10px 42px;
+display: block;
+}
+#profile .social li.twitter a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/profile-twitter.png) no-repeat left;
+}
+#profile .social li.facebook a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/profile-facebook.png) no-repeat left;
+}
+#profile .social li.linkedin a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/profile-linkedin.png) no-repeat left;
+} img.wp-post-image, .gallery-item img {
+border: 1px solid #DADBDD !important;
+padding: 4px;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+#content img.attachment-blog-thumbnail, #content img.attachment-post-thumbnail{
+padding:5px;
+float:left;
+margin:5px 15px 5px 0;
+width:auto;
+}
+#content .alignleft{
+float: left;
+margin: 1px 15px 5px 0;
+}
+#content .alignright {
+float: right;
+margin: 5px 0 5px 15px;
+}
+#content img.alignright, #content img.alignleft, #content img.aligncenter, img.attachment-post-thumbnail {
+border: 1px solid #DADBDD;
+padding: 5px;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+#content .aligncenter {
+margin: 10px auto 5px;
+display: block;
+}
+#content img.alignnone + img.alignnone  {
+margin-left: 8px;
+}
+div.wp-caption {
+background-color: #f3f3f3;
+border: 1px solid #ddd;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; margin: 10px;
+padding: 6px 2px 0;
+text-align: center;
+}
+div.wp-caption img {
+border: 0 none; margin: 0; padding: 0;
+}
+p.wp-caption-text {
+margin: 0 !important;
+padding: 0px 3px 3px !important;
+clear: both;
+font-size: 11px;
+} #content div.resume_header {
+border-bottom: 4px solid #ccc;
+overflow: visible;
+}
+#content div.resume_header h1.title{
+font-size: 2em;
+}
+#content div.resume_header p.success {
+margin: 20px 0 !important;
+}
+#content div.resume_header p.button {
+margin: 20px 0 !important;
+overflow: hidden;
+}
+#content div.resume_header img {
+float: right;
+background: #fff;
+margin: 0 0 0 20px;
+outline: 10px solid #fff;
+}
+#content div.resume_header p.meta {
+font-size: 1.23em;
+line-height: 1.5em;
+margin:  0.625em 0 1.25em 0;
+padding: 0;
+color: #555;
+font-weight: normal;
+font-style: italic;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+#content div.resume_header dl {
+overflow: hidden;
+zoom: 1;
+margin: 0 0 10px;
+line-height: 1.62em;
+color: #555;
+font-weight: normal;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+#content div.resume_header dt {
+width: 142px;
+margin-right: 20px;
+float: left;
+clear: left;
+font-style: italic;
+}
+#content div.resume_header dd {
+float: left;
+}
+#content div.resume_header p.edit_button {
+padding-left: 162px;
+}
+#content div.resume_header p.edit_button a, .resume_section p.edit_button a {
+text-decoration: none !important;
+float: none !important;
+font-size: 11px;
+}
+#content div.resume_header p.edit_resume {
+padding: 0;
+float: left;
+}
+#content div.resume_header p.edit_resume a {
+font-size: 12px;
+text-decoration: none !important;
+}
+.user_prefs th {
+font-weight: bold;
+font-size: 1.2em;
+padding: 1px 6px 1px 0;
+line-height: 1.5em;
+vertical-align: top;
+text-align: right;
+}
+.user_prefs td {
+vertical-align: top;
+font-size: 1.2em;
+padding: 1px 0;
+line-height: 1.5em;
+}
+#content h2.resume_section_heading {
+width: 142px;
+text-align: left;
+float: left;
+font-size: 1.23em;
+line-height: 1.25em;
+margin: 0;
+padding: 0 0 2.5em 0;
+color: #555;
+font-weight: normal;
+font-style: italic;
+//font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+font-family:arial !important;
+}
+#content div.resume_section {
+min-height: 60px;
+padding: 0 0 0 162px;
+margin: 0 0 1.54em;
+line-height: 1.54em;
+border-bottom: 1px solid #ccc;
+color: #555;
+//font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+font-family:arial !important;
+}
+#content div.resume_section ul {
+margin: 0 0 1.54em;
+list-style: disc outside;
+padding: 0;
+}
+#content div.resume_section ul.terms {
+margin: 0 0 1.54em;
+padding: 0;
+overflow: hidden;
+zoom: 1;
+list-style: none;
+}
+#content div.resume_section ul.terms li {
+float: left;
+margin: 0 0.3em 0 0;
+}
+ul.experience, ul.education {
+list-style: none outside !important;
+margin: 0;
+padding: 0;
+}
+ul.experience li, ul.education li {
+margin: 0 0 2.5em;
+}
+ul.experience li h3, ul.education li h3 {
+margin: 0 0 0.25em !important;
+}
+ul.experience li h4, ul.education li h4 {
+margin: 0 0 0.25em !important;
+font-weight: normal !important;
+color: #555;
+}
+ul.experience li p {
+color: #777;
+}
+ul.experience li p.dates, ul.education li p.dates {
+float: right;
+color: #555;
+}
+#dashboard.myprofile_section ol.jobs {
+margin-bottom: 20px !important;
+}
+#dashboard.myprofile_section ol.jobs dd.title {
+width: 280px;
+}
+#dashboard.myprofile_section p.jobs {
+margin-bottom: 20px !important;
+} ul.widgets li.widget ul.ads {
+margin: 0 0 14px !important;
+padding: 0 !important;
+overflow: hidden;
+zoom: 1;
+}
+ul.ads li {
+float: left;
+border: 1px solid #dddddd;
+margin-bottom: 6px;
+}
+ul.ads li.alt {
+float: right;
+}
+ul.ads li img {
+display: block;
+}
+ul.widgets li.widget_jr_250ad .widget_content{
+text-align: center;
+}
+ul.widgets li.widget_jr_250ad div {
+margin: 0 auto !important;
+}
+ul.widgets li.widget.widget-nav {
+font-size: 1em;
+padding: 30px 0;
+}
+ul.widgets li.widget.widget-nav ul.display_section {
+margin: 0 0 -1px !important;
+padding: 0 !important;
+}
+ul.widgets li.widget.widget-nav div {
+border: 1px solid #dddddd;
+}
+ul.widgets li.widget.widget-nav div div {
+border: 0;
+}
+ul.widgets li.widget.widget-nav div ul, ul.widgets li.widget.widget-nav div ul li {
+margin: 0 !important;
+padding: 0 !important;
+list-style: none outside !important;
+}
+ul.widgets li.widget.widget-nav div ul li a.top {
+border-bottom: 1px solid #ddd;
+padding: 0.5em 1em;
+display: block;
+zoom: 1;
+text-decoration: none !important;
+color: #666;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/arrow-sm.png) no-repeat 242px center;
+}
+ul.widgets li.widget.widget-nav div ul li a.top:hover {
+background-color: #f5f5f5;
+}
+ul.widgets li.widget.widget-nav div ul li ul {
+background: #eee;
+padding: 0.5em !important;
+border-bottom: 1px solid #ddd;
+}
+ul.widgets li.widget.widget-nav div ul li ul li {
+border-left: 2px solid #ccc;
+margin-bottom: 2px !important;
+}
+ul.widgets li.widget.widget-nav div ul li ul li a {
+padding: 0 10px 0 7px;
+line-height: 2em;
+display: block;
+zoom: 1;
+text-decoration: none !important;
+background: #fff;
+}
+ul.widgets li.widget.widget-nav ul.job_tags {
+margin: 0;
+padding: 10px !important;
+overflow: hidden;
+zoom: 1;
+}
+ul.widgets li.widget.widget-nav ul.job_tags li {
+float: left;
+margin: 2px !important;
+}
+ul.widgets li.widget.widget-nav ul.job_tags li a {
+float: left;
+background: #f5f5f5;
+border-bottom: 1px solid #eee;
+border-right: 1px solid #eee;
+padding: 0 0.5em !important;
+font-size: 0.75em;
+text-decoration: none !important;
+text-shadow:0 1px 0 #E8E8E8;
+}
+ul.widgets li.widget.widget-nav ul.job_tags li a:hover {
+background: #ddd;
+}
+ul.widgets li.widget.widget-nav form {
+padding: 10px;
+}
+ul.widgets li.widget.widget-nav form input.text, ul.widgets li.widget.widget-nav form select {
+width: 90% !important;
+}
+ul.widgets li.widget.widget-nav form label {
+float: none;
+padding: 0 !important;
+display: block;
+}
+ul.widgets li.widget.widget-nav  .page_item_children a {
+padding-left: 20px;
+} .widget_categories ul,
+.widget_archive ul,
+.widget_links ul,
+.widget_recent_entries ul,
+.widget_recent_comments ul,
+.widget_meta ul,
+.widget_pages ul,
+.widget_rss ul,
+.widget_categories ul,
+.widget_pages ul,
+.widget_top_ads_overall ul,
+.widget_top_ads ul,
+.widget_user_options ul, .widget_user_info ul {
+list-style: none outside !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+.widget_archive ul li,
+.widget_links ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_meta ul li,
+.widget_rss ul li,
+.widget_categories ul li,
+.widget_pages ul li, .widget_job_categories ul li,
+.widget_top_ads_overall ul li, .widget_top_ads ul li,
+.widget_user_options ul li  {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/arrow-sm.png) no-repeat scroll left center transparent;
+display: block;
+border-top: 1px dotted #d8d8d8;
+font-size: 12px;
+line-height: 1.6em;
+padding: 5px 0 5px 15px;
+list-style: none outside !important;
+}
+.widget_archive ul li a,
+.widget_links ul li a,
+.widget_recent_entries ul li a,
+.widget_recent_comments ul li a,
+.widget_meta ul li a,
+.widget_rss ul li a,
+.widget_categories ul li a,
+.widget_pages ul li a,
+.widget_tag_cloud a,
+.widget-subscribe li a,
+.widget_top_ads_overall li a, .widget_top_ads li a,
+.widget_user_options li a, .widget_user_info li a {
+margin: 0;
+padding: 0;
+}
+.widget_content .tag_cloud {
+margin-top: 10px;
+line-height: 1.8em;
+padding: 15px 0 !important;
+border-top: 1px dotted #D8D8D8;
+}
+.widget_user_info ul li {
+display: block;
+border-top: 1px dotted #d8d8d8;
+font-size: 12px;
+line-height: 1.6em;
+padding: 5px 0 5px;
+list-style: none outside !important;
+} #content ul.errors {
+margin: 0px;
+}
+.notice {
+padding-bottom: 25px;
+}
+.notice span,
+.notice > div {
+margin:25px 5px 0 5px;
+padding:15px 15px 15px 45px;
+border:1px solid #999;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-weight:bold;
+display:block;
+}
+.notice.extra {
+margin-bottom:35px;
+}
+.notice.success span,
+.notice.success > div {
+border:1px solid #F2EADD;
+background:#F8F6E8 url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-tick.png) no-repeat 12px 50%;
+}
+.notice.success-pending span,
+.notice.draft-pending span,
+.notice.success-pending > div,
+.notice.draft-pending > div {
+border:1px solid #E6DB55;
+background:#FFFBCC url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-exclamation.png) no-repeat 12px 50%;
+}
+.notice.error span,
+.notice.error > div {
+border:1px solid #F00;
+background:#FCC url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-exclamation.png) no-repeat 12px 50%;
+}
+.notice.error span a,
+.notice.error > div a {
+color:#C00;
+}
+.notice .errors li {
+list-style: none;
+color: #AA4433;
+}
+ul.errors li {
+list-style: none;
+color: #AA4433;
+}
+ol.steps {
+overflow: hidden;
+margin: 0 0 1.54em !important;
+list-style: none !important;
+}
+ol.steps li {
+float: left;
+width: 25%;
+background-color: #fff;
+}
+ol.steps.more-steps li {
+float: left;
+width: 20%;
+}
+ol.steps li span {
+display: block;
+border-top: 1px solid #d8d8d8;
+border-bottom: 1px solid #d8d8d8;
+padding: 5px 10px 5px;
+text-align: center;
+color: #999;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/step.png) no-repeat right;
+}
+ol.steps li.current span {
+color: #555;
+background: #d8d8d8 url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/step_active.png) no-repeat right;
+}
+ol.steps li.done span {
+text-decoration: line-through;
+background: #fff url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/step.png) no-repeat right;
+}
+ol.steps li.previous span {
+text-decoration: line-through;
+background: #fff url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/step_done.png) no-repeat right;
+}
+ol.steps li span.first {
+border-left: 1px solid #d8d8d8;
+}
+ol.steps li span.last {
+background-image: none !important;
+border-right: 1px solid #d8d8d8;
+}
+.type span.ftype {
+background-color: #666666;
+border: 2px solid #666666;
+color: #FFFFFF !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.type span.jtype {
+background-color:#666666;
+border:2px solid #666666;
+color:#FFFFFF !important;
+text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+li.print {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/printer.png) no-repeat scroll 10px 22px;
+}
+li.apply {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/briefcase.png) no-repeat scroll 9px 22px;
+}
+li.share {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/share.png) no-repeat scroll 9px 22px;
+}
+li.star {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/star.png) no-repeat scroll 11px 22px;
+}
+li.map {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/marker.png) no-repeat scroll 12px 22px;
+}
+li.edit-job {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/job_icon.png) no-repeat scroll 12px 22px;
+}
+.section_footer li.edit-job {
+float: right;
+}
+.section_footer li.apply a.active {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/briefcase.png) no-repeat scroll 9px 22px #E4E4E4;
+color: #555;
+} #content .job-pack {
+width:580px;
+border:1px solid #CCC;
+-moz-border-radius: 6px;
+-khtml-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+padding:14px;
+position:relative;
+background-color:#EEE;
+margin: 10px 10px ;
+}
+#content .job-pack-title {
+min-width:40px;
+height:42px;
+margin:0;
+position:relative;
+left:-27px;
+}
+#content .job-pack .job-pack-title {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/ribbon-red-left.png) no-repeat top left;
+}
+#content .user-pack .job-pack-title {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/ribbon-green-left.png) no-repeat top left;
+}
+#content .job-pack-title h2 {
+margin:0;
+padding:10px 30px 12px 0;
+position:absolute;
+top:0;
+left:28px;
+color:#FFF;
+font-size:1.38em;
+font-weight: bold;
+}
+#content .job-pack .job-pack-title h2 {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/ribbon-red-right.png) no-repeat top right;
+text-shadow:0 -1px 0 #380D08;
+}
+#content .user-pack .job-pack-title h2 {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/ribbon-green-right.png) no-repeat top right;
+text-shadow:0 -1px 0 #1D330D;
+}
+#content .job-pack-choose {
+padding:11px 30px 10px 30px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+position:absolute;
+top:14px;
+right:14px;
+background-color:#D8D8D8;
+}
+#content .job-pack-choose label {
+color:#3D5E8E;
+font-size:1.23em;
+font-weight:bold;
+}
+#content .job-pack-details {
+margin:0;
+padding:0 0 10px 0;
+overflow:hidden;
+}
+#content .job-pack-details li {
+width:264px;
+margin:0 5px 0 0;
+padding:0 0 0 20px;
+float:left;
+font-size:.92em;
+list-style-type:none;
+}
+#content .job-pack-details li strong {
+font-size:1.16em;
+}
+#content .job-pack-details.categories-list li {
+width:520px;
+}
+#content .job-pack-duration {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-calendar-select.png) no-repeat top left;
+}
+#content .job-pack-jobs-duration {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/job_icon.png) no-repeat top left;
+}
+#content .job-pack-offers {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-document-select.png) no-repeat top left;
+}
+#content .job-pack-resume {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-key.png) no-repeat top left;
+}
+#content .job-pack .categories-list {
+margin-top: 10px;
+}
+#content .job-pack-categories {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/icon-blue-folders.png) no-repeat top left;
+}
+#content .job-pack small {
+font-size: 1em; font-weight: bold; color: #575656;
+}
+#content .job-pack-operations {
+padding: 5px;
+background-color: #E8E8E8;
+}
+#content .job-pack-operations a {
+margin-left: 5px;
+}
+#content .job-packs-user, #content .job-packs-new {
+margin-bottom: 35px;
+}
+#content .job-pack .pack-offer.used {
+text-decoration: line-through;
+}
+#content .data_list th.pack-order-date {
+width: 100px;
+text-align: center;
+}
+form.main_form div.pack-offer-reminder {
+border: 1px solid #CFCFCF;
+padding: 4px;
+}
+.job-pack-additional-options {
+border-top: 1px solid #ccc;
+}
+.job-pack-additional-options p {
+font-weight: bold;
+}
+.button.buy-pack {
+width: 135px;
+}
+.pack-activation-date{
+float: right;
+font-size: 10px;
+}
+.pack-limit {
+font-size: 0.8em;
+padding: 2px;
+} ul.widgets li.widget ul.pack_overview {
+margin: 0 !important;
+padding: 10px 0 0 0 !important;
+}
+ul.pack_overview li {
+text-align: left;
+border-top: 1px solid #d6d6d6;
+position: relative;
+padding: 0;
+}
+ul.pack_overview li p {
+font-size: 0.92em;
+margin: 12px 0;
+}
+ul.pack_overview li strong {
+font-size: 1.27em;
+}
+ul.pack_overview .cost {
+background: #ddd;
+border-bottom: 2px solid #ccc;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+-o-border-radius: 20px;
+-khtml-border-radius: 20px;
+border-radius: 20px;
+color: #555;
+padding: 6px 8px 4px;
+text-align: center;
+float: right;
+margin: 12px 0 0 4px;
+font-size: 11px;
+}
+.widget .button.buy-pack-small {
+padding: 5px;
+margin-top: 10px;
+line-height: 15px;
+}
+.widget .button.buy-pack-small span {
+font-size: 11px;
+}
+ul.display_section {
+overflow: hidden;
+zoom: 1;
+list-style: none outside !important;
+margin: 0 0 -1px !important;
+padding: 0 !important;
+}
+ul.display_section li {
+float: left;
+padding: 0.82em 1.09em;
+border-right: 1px solid #ddd;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+background: #ddd;
+margin-right: 2px;
+font-size: 0.92em;
+}
+ul.display_section li.active {
+background: #fff;
+}
+ul.display_section li a {
+font-weight: bold;
+color: #666;
+}
+.myjobs_section, .myprofile_section {
+border: 1px solid #ddd;
+padding: 1em 1em 0;
+} .comment-bubble {
+float:right;
+}
+.comment-bubble a {
+background:url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/comments-bubble.png) no-repeat scroll 0 0 transparent;
+display:block;
+font-weight: bold;
+font-size:14px;
+height:48px;
+padding-top:12px;
+text-align:center;
+text-decoration:none;
+width:48px;
+}
+.comment-bubble a:hover {
+text-decoration:underline;
+}
+.section_content_comments {
+padding-top: 1px !important;
+padding-bottom: 0 !important;
+border-bottom: 0px !important;
+}
+.section_content_comments h2 {
+padding-top:20px;
+}
+#comment {
+width: 100%;
+height: 150px;
+}
+#respond {
+margin-top: 20px;
+}
+.comment_container {
+position: relative;
+}
+ol#comment-list {
+margin: 0 0 15px !important;
+}
+ol#comment-list img.avatar {
+margin: 0 10px 0 0;
+padding: 4px;
+float: left;
+border: 1px solid #ebebeb;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+ol#comment-list li {
+margin: 0;
+padding: 8px 0;
+list-style: none;
+overflow: hidden;
+}
+ol#comment-list li ul {
+margin: 8px 0 0 !important;
+}
+ol#comment-list li li {
+border: 0;
+margin: 0 0 0 68px !important;
+padding: 0 0 8px;
+}
+ol#comment-list li .comment-text {
+border: 2px solid #ebebeb;
+overflow: hidden;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+padding: 10px 10px 0;
+}
+ol#comment-list li .comment-text p {
+margin: 0 0 10px !important;
+}
+ol#comment-list li p.meta {
+font-weight: normal;
+background: transparent;
+padding: 0;
+font-style: italic;
+color: #777;
+font-size: 0.9em;
+margin: 0 0 10px !important;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+ol#comment-list li p.meta strong {
+font-weight: bold;
+}
+h3 span#comments-rss a {
+border: none;
+text-decoration: none;
+}
+#commentform {
+margin-bottom: 15px;
+}
+p.comment-form-author,
+p.comment-form-email,
+p.comment-form-url,
+p.comment-form-comment {
+overflow: hidden;
+zoom: 1;
+}
+p.comment-form-comment label {
+display: none;
+}
+#commentform input.text, #commentform select, #commentform textarea,
+p.comment-form-author input,
+p.comment-form-email input,
+p.comment-form-url input,
+p.comment-form-comment input{
+border-top: 1px solid #aaa;
+border-left: 1px solid #aaa;
+border-bottom: 1px solid #ccc;
+border-right: 1px solid #ccc;
+background: #fff;
+color: #777;
+font-size: 1.2em;
+padding: 7px;
+width: 50%;
+float: left;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+#commentform input.text:focus, #commentform textarea:focus,
+p.comment-form-author input:focus,
+p.comment-form-email input:focus,
+p.comment-form-url input:focus,
+p.comment-form-comment input:focus
+{
+background: #f3f3f3;
+}
+#commentform textarea {
+width: 97.5%;
+}
+#commentform label {
+font-size: 1em;
+margin-left: 8px;
+color: #777;
+line-height: 2.6em;
+}
+form.filter .submit, #commentform #submit {
+text-shadow:0 1px 0 #FFFFFF;
+}
+form.filter .submit:hover, form.filter .submit:focus,
+#commentform #submit:hover, #commentform #submit:focus {
+cursor:pointer;
+text-shadow:none;
+}
+#sidebar #ads a {
+display:block;
+float:left;
+font-family:verdana,sans-serif;
+font-weight:normal;
+margin:0 10px 10px 0;
+overflow:hidden;
+text-align:center;
+text-decoration:none !important;
+text-shadow:0 1px 0 #FFFFFF;
+}
+#sidebar p.location {
+float: left;
+width: 156px;
+}
+#sidebar p.radius {
+float: right;
+width: 70px;
+clear: none;
+}
+#sidebar p.location label, #sidebar p.radius label {
+width: auto;
+}
+#sidebar p.location input {
+font-size: 13px;
+padding: 5px;
+width: 144px;
+}
+#sidebar p.radius select {
+font-size: 13px;
+margin: 4px 0;
+}
+#sidebar .submitbutton {
+clear: both;
+}
+form.main_form fieldset textarea.grow {
+max-height: 300px;
+} .debug {
+padding:10px 20px;
+} .mceContentBody{
+text-align:left;
+padding:5px;
+line-height:1.5em;
+font-size:0.8em;
+color:#4F4F4F;
+background-color: #FFFFFF;
+height:100%; min-width: 100px;
+}
+.mceContentBody ul{
+list-style-image:none;
+list-style-position:inside;
+list-style-type:disc;
+padding:10px;
+}
+.mceContentBody ul li{
+padding:0 5px 0;
+}
+.mceContentBody ol{
+list-style-image:none;
+list-style-position:inside;
+list-style-type:decimal;
+padding:10px;
+}
+.mceContentBody ol li{
+padding:0 5px 0;
+}
+.mceContentBody h1, .mceContentBody h2, .mceContentBody h3, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6{
+line-height:1.54em;
+} .taglist { box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+-o-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+outline: none;
+border: 1px solid;
+border-color: #ddd;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-transition: all ease-in-out 0.2s;
+overflow: hidden;
+zoom: 1;
+cursor: text;
+margin-left: 0;
+}
+form.main_form p .taglist {
+padding: 7px;
+width: 50%;
+margin: 0 !important;
+list-style: none outside;
+color: #777;
+}
+form.main_form p .taglist input {
+color: #777;
+}
+.taglist li.tag {
+background: #999;
+background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#777));
+background: -webkit-linear-gradient(#999, #777);
+background: -moz-linear-gradient(center top, #999 0%, #777 100%);
+background: -moz-gradient(center top, #999 0%, #777 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#999999,endColorstr=#777777);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#999999, endColorstr=#777777)";
+list-style: none;
+float: left;
+-webkit-border-top-right-radius: 24px;
+-webkit-border-bottom-right-radius: 24px;
+-moz-border-radius-topright: 24px;
+-moz-border-radius-bottomright: 24px;
+border-top-right-radius: 24px;
+border-bottom-right-radius: 24px;
+box-shadow: 0 0 0 1px #666;
+-webkit-box-shadow: 0 0 0 1px #666;
+-moz-box-shadow: 0 0 0 1px #666;
+-o-box-shadow: 0 0 0 1px #666;
+color: #fefefe;
+padding: 0 2px 0 4px;
+margin: 0 6px 0 0;
+-webkit-transition: all ease-in-out 0.2s;
+font-family: sans-serif;
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.taglist li.ready-to-delete {
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+}
+.taglist li.input {
+list-style: none;
+float: left;
+}
+.taglist li.input input {
+border: medium none;
+cursor: text;
+margin: 0;
+outline: 0 none;
+padding: 3px 0 2px;
+width: 150px;
+background: none;
+}
+.taglist li.tag a.delete span {
+visibility: hidden;
+}
+.taglist li.tag a.delete {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/to-delete.png) no-repeat 5px 5px;
+width: 8px;
+height: 7px;
+text-decoration: none;
+cursor: pointer;
+} form.modal_form {
+border: 1px solid #eee;
+padding: 10px;
+width: 500px
+}
+form.modal_form h2 {
+border-bottom: 2px solid #cccccc;
+margin: 0 0 10px;
+padding: 0 0 10px;
+}
+#fancybox-loading {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+margin-left: -20px;
+cursor: pointer;
+overflow: hidden;
+z-index: 1104;
+display: none;
+}
+#fancybox-loading div {
+position: absolute;
+top: 0;
+left: 0;
+width: 40px;
+height: 480px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+}
+#fancybox-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1100;
+display: none;
+}
+#fancybox-tmp {
+padding: 0;
+margin: 0;
+border: 0;
+overflow: auto;
+display: none;
+}
+#fancybox-wrap {
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px;
+z-index: 1101;
+outline: none;
+display: none;
+}
+#fancybox-outer {
+position: relative;
+width: 100%;
+height: 100%;
+background: #fff;
+}
+#fancybox-content {
+width: 0;
+height: 0;
+padding: 0;
+outline: none;
+position: relative;
+overflow: hidden;
+z-index: 1102;
+border: 0px solid #fff;
+text-align: left;
+}
+#fancybox-hide-sel-frame {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: transparent;
+z-index: 1101;
+}
+#fancybox-close {
+position: absolute;
+top: -15px;
+right: -15px;
+width: 30px;
+height: 30px;
+background: transparent url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png) -40px 0px;
+cursor: pointer;
+z-index: 1103;
+display: none;
+}
+#fancybox-error {
+color: #444;
+font: normal 12px/20px Arial;
+padding: 14px;
+margin: 0;
+}
+#fancybox-img {
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+border: none;
+outline: none;
+line-height: 0;
+vertical-align: top;
+}
+#fancybox-frame {
+width: 100%;
+height: 100%;
+border: none;
+display: block;
+}
+#fancybox-left, #fancybox-right {
+position: absolute;
+bottom: 0px;
+height: 100%;
+width: 35%;
+cursor: pointer;
+outline: none;
+background: transparent url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/blank.gif);
+z-index: 1102;
+display: none;
+}
+#fancybox-left {
+left: 0px;
+}
+#fancybox-right {
+right: 0px;
+}
+#fancybox-left-ico, #fancybox-right-ico {
+position: absolute;
+top: 50%;
+left: -9999px;
+width: 30px;
+height: 30px;
+margin-top: -15px;
+cursor: pointer;
+z-index: 1102;
+display: block;
+}
+#fancybox-left-ico {
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -30px;
+}
+#fancybox-right-ico {
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -60px;
+}
+#fancybox-left:hover, #fancybox-right:hover {
+visibility: visible; }
+#fancybox-left:hover span {
+left: 20px;
+}
+#fancybox-right:hover span {
+left: auto;
+right: 20px;
+}
+.fancybox-bg {
+position: absolute;
+padding: 0;
+margin: 0;
+border: 0;
+width: 20px;
+height: 20px;
+z-index: 1001;
+}
+#fancybox-bg-n {
+top: -20px;
+left: 0;
+width: 100%;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox-x.png);
+}
+#fancybox-bg-ne {
+top: -20px;
+right: -20px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -162px;
+}
+#fancybox-bg-e {
+top: 0;
+right: -20px;
+height: 100%;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox-y.png);
+background-position: -20px 0px;
+}
+#fancybox-bg-se {
+bottom: -20px;
+right: -20px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -182px;
+}
+#fancybox-bg-s {
+bottom: -20px;
+left: 0;
+width: 100%;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox-x.png);
+background-position: 0px -20px;
+}
+#fancybox-bg-sw {
+bottom: -20px;
+left: -20px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -142px;
+}
+#fancybox-bg-w {
+top: 0;
+left: -20px;
+height: 100%;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox-y.png);
+}
+#fancybox-bg-nw {
+top: -20px;
+left: -20px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png);
+background-position: -40px -122px;
+}
+#fancybox-title {
+font-family: Helvetica;
+font-size: 12px;
+z-index: 1102;
+}
+.fancybox-title-inside {
+padding-bottom: 10px;
+text-align: center;
+color: #333;
+background: #fff;
+position: relative;
+}
+.fancybox-title-outside {
+padding-top: 10px;
+color: #fff;
+}
+.fancybox-title-over {
+position: absolute;
+bottom: 0;
+left: 0;
+color: #FFF;
+text-align: left;
+}
+#fancybox-title-over {
+padding: 10px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancy_title_over.png);
+display: block;
+}
+.fancybox-title-float {
+position: absolute;
+left: 0;
+bottom: -20px;
+height: 32px;
+}
+#fancybox-title-float-wrap {
+border: none;
+border-collapse: collapse;
+width: auto;
+}
+#fancybox-title-float-wrap td {
+border: none;
+white-space: nowrap;
+}
+#fancybox-title-float-left {
+padding: 0 0 0 15px;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png) -40px -90px no-repeat;
+}
+#fancybox-title-float-main {
+color: #FFF;
+line-height: 29px;
+font-weight: bold;
+padding: 0 0 3px 0;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox-x.png) 0px -40px;
+}
+#fancybox-title-float-right {
+padding: 0 0 0 15px;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/fancybox/fancybox.png) -55px -90px no-repeat;
+} .sponsored-results-placeholder { float:left; width: 16px; height:16px;	margin-right: 5px; background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/loading.gif)  } .expired_trial { color: #ccc; text-decoration: line-through; }
+.temp_subsc_info { font-size: 10px; }
+.button.subscribe-resumes {
+width: 145px;
+}
+.resume-trial {
+font-size: 12px;
+color:#7f7f7f;
+} .contact_job_seeker { float: left; }
+.processing-placeholder { float: right; display: none; width: 16px; height:16px; background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/loading.gif); }
+.button a.contact_button { float: left; } .ie6 ol.jobs li dl,
+.ie6 .paging,
+.ie6 a.button,
+.ie6 form.filter,
+.ie6 li.comment div,
+.ie6 #apply_form { zoom:1; }
+.ie7 form.filter,
+.ie7 .paging,
+.ie7 .widget { zoom:1; } .ie6 #header .logo_wrap, .ie7 #header .logo_wrap { display: block; }
+.ie6 #mainNav, .ie6 #logo, .ie7 #mainNav, .ie7 #logo { display: inline; }
+.ie6 #logo, .ie7 #logo { float: left !important; } .ie6 #logo small, .ie7 #logo small { padding-bottom: 4px; } .ie6 .style-default .section, .ie6 #searchform, .ie7 .style-default .section, .ie7 #searchform, .ie8 .style-default .section, .ie8 #searchform { border: 1px solid #ddd; } .alert_rss { float:left; padding: 3px; margin-top: 8px; background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/feed_32.png) no-repeat; width: 32px; height: 32px; } #purchase-plan .pricing-options {
+padding-bottom: 10px;
+}
+.plan{
+border: 1px solid #CCC;
+margin: 10px 5px;
+padding: 3px;
+font-size: 13px;
+position: relative;
+}
+.price-box:after {
+content: "";
+position: absolute;
+right: -1px;
+margin-top: 10px;
+border-top: 10px solid #000;
+border-right: 10px solid transparent;
+}
+.plan .content{
+background-color: #EEEEEF;
+padding: 8px;
+min-height: 95px;
+}
+.plan .plan-content {
+max-width: 450px;
+}
+.plan .title{
+font-size: 20px;
+font-weight: bold;
+}
+.plan .plan-description{
+font-style: italic;
+margin-bottom: 10px;
+font-size: 12px;
+padding: 5px;
+}
+.plan .option-header{
+font-weight: bold;
+margin-bottom: 2px;
+}
+.plan .price-box{
+position: absolute;
+top: 10px;
+right: -10px;
+background-color: white;
+padding: 10px;
+padding-right: 0px;
+border: 1px solid #CCC;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.plan .price-box .price{
+color: #0066CC;
+font-size: 40px;
+float: left;
+margin-right: 5px;
+}
+.plan .price-box .duration{
+margin-top: 4px;
+font-size: 15px;
+float: left;
+}
+.plan .price-box .radio-button{
+background-color: #CCC;
+clear: both;
+padding: 5px;
+padding-right: 20px;
+font-weight: bold;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.plan .price-box .radio-button label{
+font-style: normal;
+}
+.plan .job-pack-additional-options {
+padding-top: 10px;
+}
+.plan-limit {
+font-size: 0.8em;
+padding: 2px;
+}
+.order-wrapper {
+margin: 0 15px 0 15px;
+-border: 1px solid #ccc;
+padding: 15px;
+}
+.section-head h1 {
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+}
+.order-summary:not(.completed) {
+border-bottom: 1px solid #ccc;
+padding: 5px 0 15px 0;
+}
+.order-summary .thank-you {
+font-size: 15px;
+font-weight: bold;
+}
+.order-summary td {
+padding-right: 10px;
+} .custom-field-label {
+font-weight: bold;
+}
+form.main_form input.text.error,
+form.main_form select.error,
+form.main_form .wp_editor_wrapper.error {
+outline: 2px solid #FCC;
+}
+form.main_form label.error {
+display: block;
+outline: 2px solid #FCC;
+background-color: #FCC;
+padding: 3px;
+margin-top: 6px;
+float: left;
+width: 52%;
+}
+#listing-fields {
+padding: 4px;
+overflow: hidden;
+width: 100%;
+} #submit_form .images {
+width: 50%;
+}
+#submit_form .images a {
+display: block;
+float: left;
+margin: 10px 10px 0 0;
+}
+#submit_form .uploaded li {
+list-style: none;
+}
+#submit_form .images a {
+display: block;
+float: left;
+margin: 10px 10px 0 0;
+}
+#submit_form .images img {
+max-width: 100px;
+max-height: 100px;
+}
+#submit_form .images div.image-meta {
+margin-top: 20px;
+}
+#submit_form .images li {
+overflow: hidden;
+}
+#submit_form .uploaded li:not(:first-child) {
+border-top: 1px solid #EBEBEB;
+}
+#submit_form .uploaded {
+border: 1px solid #EBEBEB;
+padding: 0 10px;
+margin: 15px 0;
+}
+#submit_form .uploaded p label {
+width: 100%;
+}
+#submit_form .uploaded .image-delete {
+color: #f00;
+}
+.field-info {
+font-size: 0.8em;
+}
+.uploaded.file-editor .file-delete {
+float: right;
+color: #f00;
+}
+.uploaded.file-editor .file-extension {
+margin-top: 12px;
+float: left;
+}
+#listing-files {
+margin: 0 0 10px 0;
+padding: 4px;
+overflow: hidden;
+width: 100%;
+min-height: 25px;
+}
+.file-extension {
+margin: 5px 0;
+}
+.file-extension a {
+margin-left: 20px;
+}
+.file-extension.file-pdf {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/file-pdf.png) no-repeat;
+}
+.file-extension.file-word {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/file-word.png) no-repeat;
+}
+.file-extension.file-excel {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/file-excel.png) no-repeat;
+}
+.file-extension.file-image {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/file-image.png) no-repeat;
+}
+.file-extension.file-other {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/file-other.png) no-repeat;
+} #geolocation_box label {
+padding-top: 0px;
+} .job-addon {
+margin: 5px 0 5px 0;
+line-height: 5px;
+}
+.job-addon span {
+background-color: #EDEDED;
+font: normal 9px arial, sans-serif;
+padding: 1px 5px 1px 5px;
+} #mainContent table.data_list {
+font-size: 12px;
+} #orders.myjobs_section td {
+font-size: 11px;
+}
+#orders.myjobs_section td.order-history-id,
+#orders td.order-history-summary {
+font-style: italic;
+}
+#orders.myjobs_section .order-history-status {
+font-weight: bold;
+}
+#orders span.order-history-job {
+text-decoration:underline;
+}
+#orders .orders-history-legend {
+font-size: 10px;
+margin: 5px 10px 15px 10px;
+}
+#orders .orders-history-statuses {
+min-width: 100px;
+float: left;
+} .recurring-subscription {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/recurring.png) no-repeat;
+padding-left: 20px;
+} .footable > thead > tr > th,
+.footable > thead > tr > td {
+position: relative;
+}
+.footable.breakpoint > tbody > tr > td.expand {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/plus.png) no-repeat 5px center;
+padding: 8px 0;
+padding-left: 40px;
+}
+.footable.breakpoint > tbody > tr.footable-detail-show > td.expand {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/minus.png) no-repeat 5px center;
+}
+.footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
+cursor: pointer;
+} @media screen and (max-width: 1000px) {
+img {
+max-width: 100%;
+height: auto;
+} #job_map img,
+#geolocation-map img {
+max-width: none;
+} .mceLayout {
+width: 100%!important;
+max-width: 100%;
+}
+.wp-caption {
+max-width: 100%;
+}
+#content .job-pack {
+width: auto;
+}
+#content .job-pack-choose {
+position: static;
+margin: 14px 0;
+}
+.plan .price-box {
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+position: static;
+}
+.price-box:after {
+display: none;
+} ol.steps {
+text-align: center
+}
+ol.steps li,
+ol.steps.more-steps li {
+float: none;
+display: inline-block;
+}
+ol.steps li span {
+position: relative;
+border: 2px solid #d8d8d8;
+border-right: none;
+}
+ol.steps li span,
+ol.steps li.previous span,
+ol.steps li.done span {
+background: #fff;
+}
+ol.steps li.current span {
+background: #d8d8d8;
+}
+ol.steps li {
+width: 40%;
+margin-top: 10px;
+margin-right: 12px;
+margin-left: 7px;
+}
+ol.steps.more-steps li {
+width: 40%;
+}
+ol.steps li span:after, ol.steps li span:before {
+left: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+}
+ol.steps li span:after {
+border-color: rgba(255, 255, 255, 0);
+border-left-color: #fff;
+border-width: 14px;
+top: 50%;
+margin-top: -14px;
+}
+ol.steps li span:before {
+border-color: rgba(216, 216, 216, 0);
+border-left-color: #d8d8d8;
+border-width: 17px;
+top: 50%;
+margin-top: -17px;
+}
+ol.steps li.current span:after{
+border-color: rgba(216, 216, 216, 0);
+border-left-color: #d8d8d8;
+}
+ol.steps li span.first {
+border-left: 2px solid #d8d8d8;
+}
+ol.steps li span.last {
+border-right: none;
+} #content div.resume_header img {
+width: 23.0769231%;
+height: auto;
+margin-left: 3.0769231%;
+}
+}
+@media screen and (max-width: 860px) {
+#wpadminbar {
+height: auto;
+min-width: 1px;
+}
+#content .job-pack-choose {
+position: absolute;
+margin: 0;
+}
+.plan .price-box {
+border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+position: absolute;
+}
+.price-box:after {
+display: block;
+}
+ul.widgets li.widget.widget-nav ul.job_tags li a {
+padding: 0.25em 0.75em !important;
+font-size: 1em;
+}
+ul.widgets li.widget_jr_250ad .widget_content {
+text-align: left;
+}
+ul.ads li.alt {
+float: left;
+margin-left: 6px;
+}
+ul.ads li:nth-child(3) {
+margin-left:6px;
+} ol.steps.more-steps li {
+width: 28%;
+}
+}
+@media screen and (max-width: 710px) {
+#content .job-pack-choose {
+position: static;
+margin: 14px 0;
+}
+.plan .price-box {
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+position: static;
+}
+.price-box:after {
+display: none;
+}
+}
+@media screen and (max-width: 600px) {
+#content .alignright,
+#content img.alignleft {
+float: left;
+margin: 20px auto;
+}
+#content .alignright:after,
+#content img.alignleft:after {
+clear: right;
+} #content img.attachment-blog-thumbnail,
+#content img.attachment-post-thumbnail {
+float: none;
+margin: 5px auto 20px;
+display: block;
+} .mceToolbar td {
+display:table-row;
+float: left;
+}
+.mceToolbar td:nth-of-type(11){
+clear: left;
+} form.main_form .order-gateways select {
+width: auto;
+} ul.ads li.alt {
+float: left;
+}
+ul.ads li:nth-child(3) {
+margin-left:0;
+}
+ul.widgets li.widget_jr_125ads {
+max-width:260px;
+} #content div.resume_header img {
+float: none;
+margin: 0 auto 10px;
+width: 150px;
+}
+form.modal_form {
+width: 90%;
+}
+#content h2.resume_section_heading {
+width: 100%;
+float: none;
+padding: 0 0 1.5em 0;
+}
+#content div.resume_section {
+padding: 0;
+}
+#content div.resume_section ul {
+list-style: disc inside;
+} form.filter p {
+padding: 0 0 10px 0;
+}
+}
+@media screen and (max-width: 480px) { ol.steps.more-steps li {
+width: 42%;
+}
+ol.steps li span {
+padding: 5px;
+} .mceToolbar td:nth-of-type(21) {
+clear: left;
+}
+.mceSeparator{
+display:none!important;
+}  .single-job_listing .date {
+float: none;
+text-align: left;
+padding: 0;
+border-left: none;
+} .single-job_listing div.date strong,
+.single-job_listing div.date span.year {
+display: inline;
+}
+.single-job_listing div.date span.year {
+font-size: 1.4em;
+color: #555;
+} .single-job_listing span.type span {
+font-size: inherit;
+float: none;
+margin: 10px auto;
+}  .single-job_listing .meta strong:before {
+content: '\A';
+white-space: pre;
+} #content .socialright,
+#content .socialleft,
+#content .socialwrap{
+float:none;
+width: 100%;
+}
+#content .socialleft{
+margin-left: 0;
+}
+p.stats {
+float: none;
+}
+#content p.tags {
+width: auto;
+}
+}
+@media screen and (max-width: 400px) { .resume_header p.meta strong:nth-of-type(4):before{
+content: '\A';
+white-space: pre;
+}
+#content div.resume_header p.edit_button {
+padding-left: 0;
+} #content .section_header p.meta {
+clear: right;
+}
+ol#comment-list img.avatar {
+float: none;
+margin: 0;
+}
+}  #searchform {	
+width: 650px; }
+#searchform div div {
+width: 642px;
+}
+#searchform input.text {
+width: 570px;
+} #searchform div.search-wrap {
+background:none repeat scroll 0 0 #EBEBEB;
+padding:6px;
+overflow: hidden;
+zoom: 1;
+height: auto !important;
+}
+#searchform div.search-wrap div {
+width:auto;
+}
+#searchform div.search-wrap div.radius {
+background: transparent none;
+padding: 4px 0 0 0;
+margin: 0;
+border: 0;
+float: right;
+height: auto !important;
+} #searchform input#search {
+width:293px;
+border-right: 1px dotted #ccc;
+padding: 5px 11px;
+margin: 6px 0;
+}
+#searchform input#near {
+width:254px;
+border-left: 1px dotted #ccc;
+padding: 5px 11px;
+margin: 6px 0;
+} div#content {
+width: 990px;
+}
+div#content .inner {
+width: 950px;
+}
+.section, #searchform {
+width: 650px;
+}
+#mainContent {
+width: 650px;	
+}
+#sidebar, ul.widgets {
+width: 260px;
+}
+ol.jobs dd.title {
+width: 310px;
+padding-right: 10px;
+}
+ol.jobs dd.location {
+width: 140px;
+padding-right: 10px;
+}
+ol.jobs dd.date, ol.resumes dd.date {
+width: 70px;
+text-align: right;
+}
+.wider #mainContent, .wider .section {
+width: 950px !important
+}
+.wider ol.jobs dd.title {
+width: 510px !important;
+}
+.wider ol.jobs dd.location {
+width: 240px !important;
+}
+.wider #searchform {
+width: 950px !important
+}
+.wider #searchform div div {
+width: 942px !important
+}
+.wider #searchform input.text {
+width: 875px;
+}
+#topNav ul {
+width: 988px;
+}
+ul.widgets li.widget {
+width: 260px;
+}
+ul.widgets li.widget-submit div {
+width: 254px;
+} @media screen and (max-width: 1000px) {
+#topNav ul {
+width: 98%;
+}
+.inner {
+width: 98%; 
+}
+#mainContent, .section, #searchform {
+width: auto;
+position: relative;
+}
+.section {
+width: 100%;
+}
+#mainContent {
+margin-right: 305px;
+}
+#sidebar {
+margin-left: -260px;
+position: relative;
+}
+div#content {
+width: 98%;
+}
+div#content .inner {
+width: 95.959596%;
+}
+#searchform input#search {
+border-right: 0;
+} #searchform div div {
+height: auto;
+}
+#searchform,
+#searchform div div {	
+width: auto;
+}
+#searchform div {
+height: auto !important;
+}
+#searchform input#search {
+border-right: 0
+}
+#searchform input#near {
+border-left: 0;
+}
+ol.jobs dd.title {
+clear: left;
+}
+.wider ol.jobs dd.title {
+clear: none;
+}
+ol.jobs dd.title {
+width: 50%; 
+padding-right: 1.53846154%; }
+ol.jobs dd.location {
+width: 30%; 
+padding-right: 1.53846154%; }
+ol.jobs dd.date, ol.resumes dd.date {
+width: 10.7692308%; float: right; 
+}
+.wider ol.resumes dd.title {
+width: 60%;
+}
+.wider ol.jobs dd.date{
+width: 7%;
+float:left;
+}
+ol.resumes dd.date,
+.wider ol.resumes dd.date{
+float: right;
+}
+.wider #mainContent, .wider .section {
+width: 100% !important; 
+}
+.wider ol.jobs dd.title {
+width: 51% !important; }
+.wider ol.jobs dd.location {
+width: 24% !important; }
+.wider #searchform {
+width: 100% !important; 
+}
+.wider #searchform div div {
+width: 100% !important; 
+}
+.wider #searchform input.text {
+width: 87.5%; } ul.widgets li.widget.widget-nav {
+width: 100%;
+}
+}
+@media screen and (max-width: 860px) {
+#mainContent, .section, #searchform {
+width: 100%;
+}
+#mainContent {
+margin-right: 0;
+}
+.section {
+position: relative;
+}
+#searchform div.search-wrap div {
+width: 100%;
+}
+#searchform div.search-wrap div.radius {
+width: auto; }
+#searchform {
+display: block; 
+}
+#searchform input#search {
+border-right: 1px dotted #ccc;
+}
+#searchform input#near {
+border-left: 1px dotted #ccc;
+}
+.wider #searchform input#search {
+border-right: 0;
+}
+.wider #searchform input#near {
+border-left: 0;
+}
+.wider ol.jobs dd.location {
+padding-left: 0;
+width: 51%;
+clear: none;
+}
+.wider ol.jobs dd.date {
+width: 70px;
+float: right;
+}
+.wider ol.jobs dd.title {
+clear: left;
+} #sidebar {
+margin-left: 0;
+}
+}
+@media screen and (max-width: 710px) {
+#searchform input#search {
+width: 90%;
+}
+#searchform input.text {
+float:none;
+}
+#searchform input#near {
+border: none;
+width: 90%!important;
+}
+#searchform input#search {
+border-right: 0;
+}
+#searchform input#near {
+border-left: 0;
+}
+ol.jobs dd.title {
+clear: left;
+}
+}
+@media screen and (max-width: 600px) {
+#searchform input#near {
+border: none;
+width: 100%;
+}
+ol.jobs dd.title,
+.wider ol.jobs dd.title {
+clear: none;
+width: auto; 
+}
+ol.jobs dd.location,
+.wider ol.jobs dd.location {
+clear: left;
+padding-left: 110px;
+width: 140px;
+padding-right: 10px;
+}
+ol.jobs dd.date,
+.wider ol.jobs dd.date {
+clear: none;
+width: 70px;
+}
+.wider ol.jobs dd.title {
+width: 60% !important; 
+}
+.wider ol.jobs dd.location {
+width: 40% !important; 
+}
+}
+@media screen and (max-width: 480px) {
+ol.jobs dd.title {
+width: 200px;
+} ol.resumes dd.date {
+width: 70px;
+}
+}
+@media screen and (max-width: 400px) {
+ol.jobs dd.title,
+.wider ol.jobs dd.title {
+clear: left;
+width: 100%;
+}
+.wider ol.jobs dd.title {
+width: 100%!important;
+}
+ol.jobs dd.location,
+.wider ol.jobs dd.location {
+padding-left: 0;
+}
+ol.jobs dd.type,
+.wider ol.jobs dd.type {
+width: 150px;
+font-size: 1.5em;
+}
+#searchform div.search-wrap div {
+width: auto;
+} .section_footer li a {
+border-bottom: 1px solid #E4E4E4;
+}
+.section_footer li.edit-job a {
+border-bottom: none;
+}
+} a, ol.jobs dd strong a {
+color: #39669e;
+text-decoration: none;
+}
+a:hover, a:focus {
+color: #39669e;
+text-decoration: underline !important
+}
+#footer a {
+text-decoration: underline;
+} body {
+background: #fbfbfb none;
+font: 62.5% "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+#header {	
+border-top: 1px solid rgba(255,255,255,0.1);
+background: #335588 url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/header_tile.png) repeat-x bottom;
+}
+#header .inner {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/header.png) no-repeat center top;
+padding: 40px 0 65px;
+}
+#header .logo_wrap {
+width: 100%;
+}
+#logo {
+color: #fff;
+padding-right: 20px;
+margin: 0 20px 0 0;
+text-shadow: 0 2px 0 #2d4a77;
+letter-spacing: -1px;
+float: left;
+}
+#logo a {
+display: block;
+text-decoration: none !important;
+font-size: 3em !important;
+line-height: 1em !important;
+font-weight: bold;
+color: #fff;
+}
+#logo small {
+font-size: 1.1em !important;
+margin-top: 0.3em;
+display: block;
+color: #bbcce5;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+#searchform div {
+height: 42px;
+background: #ebebeb;
+padding: 3px;
+border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+}
+#searchform div div {
+height: 40px;
+border-top: 1px solid #c6c6c6;
+border-left: 1px solid #c6c6c6;
+border-bottom: 1px solid #d8d8d8;
+border-right: 1px solid #d8d8d8;
+background: #fff url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/search_input.png) repeat-x top;
+float: left;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+padding: 0;
+}
+#searchform input.text {
+border: 0;
+color: #999;
+background: transparent;
+float: left;
+vertical-align: middle;
+font-size: 16px;
+outline: 0 !important;
+width: 272px !important;
+padding: 5px 11px;
+margin: 6px 0;
+}
+#searchform input.text + input.text{
+border-left: 1px dotted #ccc;
+}
+#searchform input.labelHighlight {
+color: #CCCCCC;
+}
+#searchform button.submit {
+vertical-align: top;
+padding: 0;
+margin: 0 2px 0 0;
+border: 0;
+float: right;
+height: 40px;
+width: 41px;
+background-image: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/search.png);
+}
+div#content {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/content.png) repeat-x top left;
+margin: 0 auto;
+padding: 1px 1px 0;
+}
+div#content .inner {
+margin: -45px auto 0;
+position: relative;
+padding: 20px 20px 10px;
+background: #fbfbfb;
+border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+background: #fbfbfb url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/pixel.png) repeat-y 690px;
+}
+.section, #searchform {
+margin: 0 0 20px;
+float: left;
+display: inline;
+}
+div.section_content {
+padding: 0 0 10px;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #E4E4E4;
+}
+.section_header {
+border-bottom: 1px solid #E4E4E4; margin-bottom: 20px;
+}
+.section_footer {
+border-top: 1px solid #fff;
+border-bottom: 1px solid #dcdcdc;
+border-right: 1px solid #dcdcdc;
+border-left: 1px solid #dcdcdc;
+padding: 0;
+margin: 0 !important;
+list-style: none !important;
+overflow: hidden;
+background: #ebebeb;
+}
+.section_footer li {
+float: left;
+}
+.section_footer li a {
+float: left;
+border-right: 1px solid #dcdcdc;
+border-left: 1px solid #fff;
+padding: 20px 8px 20px 33px;
+font-weight: bold;
+}
+#apply_form, #share_form {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/form.png) repeat;
+}
+#apply_form {
+padding: 20px 0 10px;
+}
+#mainContent {	
+float: left;
+display: inline;
+}
+#sidebar {
+float: right;
+display: inline;
+}
+div#footer {
+font-size: 0.9em;
+padding: 0;
+}
+div#footer .inner {
+padding: 20px 0;
+border-top: 3px solid #ddd;
+}
+div#footer p, div#footer a {
+color: #999999;
+text-align: left;
+}
+.col-1 {
+width: 48%;
+float: left;
+}
+.col-2 {
+width: 48%;
+float: right;
+}
+.sexy-bookmarks {
+margin-bottom: 10px !important
+} .pagetitle {
+margin: 0 0 10px !important
+} .wider div#content .inner {
+background: #fbfbfb none;
+} .paging {
+padding: 20px 0 4px;
+margin: 0 !important;
+overflow: hidden;
+line-height: 2em;
+}
+.paging .top {
+float: right;
+}
+.paging .top a {
+color: #555;
+background: #fff;
+margin: 2px;
+padding: 2px 4px;
+border: 1px solid #D8D8D8;
+}
+.paging .top a:hover, .paging .top a:focus {
+color: #fff;
+background: #39669e;
+border: 1px solid #39669e;
+text-decoration: none !important;
+}
+.wp-pagenavi {
+float: left;
+}
+.wp-pagenavi span.current {
+border: 1px dotted #777 !important;
+color: #777 !important;
+}
+.wp-pagenavi span.pages {
+border: 1px solid #D8D8D8 !important;
+color: #555 !important;
+}
+.wp-pagenavi a, .comment-paging .page-numbers {
+border: 1px solid #D8D8D8 !important;
+background: #fff !important;
+color: #555 !important;
+margin: 2px;
+padding: 2px 4px;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current, .comment-paging .page-numbers:hover, .comment-paging .current {
+border: 1px solid #39669e !important;
+background: #39669e !important;
+color: #fff !important;
+text-decoration: none !important;
+}
+.comment-paging {
+text-align: center;
+position: relative;
+margin-bottom: 20px;
+line-height: 1.4em;
+}
+.comment-paging .page-numbers {
+margin: 0;
+}
+.comment-paging .next {
+position: absolute;
+right:0;
+top:0;
+margin: -2px 0 0 0;
+}
+.comment-paging .prev {
+position: absolute;
+left:0;
+top:0;
+margin: -2px 0 0 0;
+} ol.jobs {
+margin: 0 !important;
+padding: 0 !important;
+border-top: 1px solid #ddd;
+}
+p.jobs {
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+padding: 8px 20px;
+}
+ol.jobs li.job {
+border-bottom: 1px solid #ddd;
+overflow: hidden;
+margin: 0 !important;
+padding: 8px 0;
+list-style: none outside;
+background: #fbfbfb;
+}
+ol.jobs li.job-alt {
+}
+ol.jobs li.job-featured {
+background: #f2efe3;
+border-color: #e1dbc0;
+}
+ol.jobs li.job-featured.job-alt {
+}
+ol.jobs dl {
+font-size: 0.9em;
+margin: 0 !important;
+overflow: hidden;
+}
+ol.jobs dt {
+visibility: hidden;
+position: absolute;
+left: -9999em;
+}
+ol.jobs dd {
+float: left;
+color: #999;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+ol.jobs dd a, h1 small a {
+color: #999;
+font-style: normal;
+text-decoration: underline;
+}
+ol.jobs dd.type {
+width: 100px;
+padding-right: 10px;
+vertical-align: middle;
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+ul.posts {
+margin: 0 !important;
+padding: 0 !important;
+list-style: none outside !important;
+border-top: 1px solid #ddd;
+}
+ul.posts li.post {
+border-bottom: 1px solid #ddd;
+overflow: hidden;
+margin: 0 !important;
+padding: 1.62em 0 0;
+list-style: none outside;
+background: #fbfbfb;
+}
+ul.posts li.post h2 {
+margin-bottom: 5px !important;
+}
+.type span {
+text-align: center;
+display: block;
+font-weight: normal;
+vertical-align: middle;
+line-height: 1em !important;
+padding: 2px 0;
+margin: 2px;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/overlay.png) repeat-x top;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+span.type span {
+font-size: 12px;
+float: left;
+vertical-align: middle;
+padding: 2px 16px;
+margin: 1px 8px 0 0;
+}
+.type span.full-time {
+background-color: #D72F1D;
+border: 2px solid #D72F1D;
+color: #fff !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.type span.part-time {
+background-color: #E3A029;
+border: 2px solid #E3A029;
+color: #fff !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.type span.freelance {
+background-color: #8CB90E;
+border: 2px solid #8CB90E;
+color: #fff !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.type span.temporary {
+background-color: #97479E;
+border: 2px solid #97479E;
+color: #fff !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.type span.internship {
+background-color: #3B6284;
+border: 2px solid #3B6284;
+color: #fff !important;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+div.date {
+text-align: center;
+float: right;
+padding: 0 0 0 19px;
+line-height: 1.54em;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+div.date span.year {
+padding: 5px 0px 0px;
+display: block;
+}
+ol.jobs dd strong, div.date strong, td.date strong {
+color: #555;
+display: block;
+font-size: 1.3em;
+font-weight: normal;
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+ol.jobs dd strong a {
+font-weight: bold;
+color: #555;
+}
+ol.jobs li.job-expired {
+color: #ddd !important;
+background: #fbfbfb !important;
+border-bottom: 1px solid #ddd !important;
+border-top: 0 !important;
+}
+ol.jobs li.job-expired a, ol.jobs li.job-expired strong, ol.jobs li.job-expired dd {
+color: #ddd !important;
+}
+ol.jobs li.job-expired .type span {
+background: #ddd none !important;
+border-color: #ddd !important;
+}
+ol.resumes {
+margin: 0 !important;
+padding: 0 !important;
+border-top: 1px solid #ddd;
+}
+ol.resumes li.resume {
+border-bottom: 1px solid #ddd;
+overflow: hidden;
+zoom: 1;
+margin: 0 !important;
+padding: 8px 0;
+list-style: none outside;
+background: #fbfbfb;
+}
+ol.resumes dl {
+font-size: 0.9em;
+margin: 0 !important;
+overflow: hidden;
+}
+ol.resumes dt {
+visibility: hidden;
+position: absolute;
+left: -9999em;
+}
+ol.resumes dd {
+float: left;
+color: #999;
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+ol.resumes dd strong {
+color: #555;
+display: block;
+font-size: 1.3em;
+font-weight: normal;
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+ol.resumes dd.photo {
+width: 46px;
+height: 38px;
+}
+ol.resumes dd.photo a img {
+display: block;
+}
+ol.resumes dd.title {
+width: 408px;
+}
+ol.resumes dd.location {
+width: 120px;
+} #mainNav ul {
+margin: 0 !important;
+padding: 0;
+float: right;
+list-style: none !important;	
+}
+#mainNav li {
+float: left;
+line-height: 1em;
+display: inline;
+padding: 0;
+margin: 0 0 0.2em 10px;
+border-bottom: 2px solid #2d4a77;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+#mainNav li a {
+float: left;
+padding: 0.8em;	
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #bbcce5;
+text-decoration: none !important;
+background: #40608f;	
+}
+#mainNav li a:hover, #mainNav li a:focus {
+background: #2c4975;
+}
+#mainNav li.current_page_item a, #mainNav li.current_page_ancestor a,  #mainNav li.current_page_parent a, #mainNav li.current-cat a, #mainNav li.current-menu-item a {
+background: #fff;
+color: #2c4975;
+}
+#mainNav li.current_page_item, #mainNav li.current_page_ancestor,  #mainNav li.current_page_parent, #mainNav li.current-cat {
+} #topNav {
+padding: 0;
+margin: 0;
+background: #2c4975 url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/top.png) repeat-x bottom;
+}
+#topNav .inner {
+position: relative;
+}
+#topNav ul {
+margin: 0;
+float: left;
+padding: 0;
+text-align: left;
+line-height: 1 !important;
+font-size: 11px;
+border-right: 1px solid #2f4f7e;
+border-left: 1px solid #264066;
+}
+#topNav li {
+list-style: none outside;		
+float:left;	
+position: relative;
+padding: 0 0 8px 0;	
+margin: 0 0 -8px 0;
+}
+#topNav li a {
+color: #bbcce5;
+float:left;	
+text-decoration: none;
+margin: 0 !important;
+padding: 10px;
+border-left: 1px solid #2f4f7e;
+border-right: 1px solid #264066;
+}
+#topNav li.right {
+float: right;		
+}
+#topNav li.right a {
+border-left: 1px solid #2f4f7e;
+border-right: 1px solid #264066;
+}
+#topNav li.current-menu-item a,
+#topNav li.current_page_item a, #topNav li a:hover, #topNav li a:focus {
+background: #476593;
+text-decoration: none !important;
+color: #e0e8f3;
+} #topNav ul ul {
+line-height: 1;	
+position:absolute;
+top: -999em;
+width: 18em;
+font-weight:normal;
+margin: 1px 0 0 -1px !important;
+padding: 0 !important;
+border:0;
+border-bottom:1px solid #264066;  
+float: none !important;
+font-size: 1em;
+}
+#topNav ul ul ul {
+margin: 0 0 0 -1px !important;
+}
+#topNav ul ul li {
+width: 100%;
+margin: 0;
+padding: 0;
+float:none;
+background: #2a4670;
+}
+#topNav ul ul li a {
+padding:0 10px;
+float: none;
+display: block;
+line-height: 2.5em !important;
+border-left: 1px solid #2f4f7e;
+border-top: 1px solid #2f4f7e;
+border-right: 1px solid #264066;
+background: transparent !important;
+}
+#topNav ul ul li.current-menu-item a,
+#topNav ul ul li.current_page_item a, 
+#topNav ul ul li.current_page_ancestor a,  
+#topNav ul ul li.current_page_parent a  {
+background: #476593 !important;
+color: #e0e8f3;
+}
+#topNav li:hover, #topNav li.sfhover {
+visibility: inherit; }
+#topNav ul ul li:hover {
+background:#476593;
+}
+#topNav ul li:hover ul,
+#topNav ul li.sfHover ul {
+left:			0;
+top:			2.86em; z-index:		99;
+}
+#topNav ul li:hover li ul,
+#topNav ulli.sfHover li ul {
+top:			-999em;
+}
+#topNav ul li li:hover ul,
+#topNav ul li li.sfHover ul {
+left:			18em; top:			0;
+}
+#topNav ul li li:hover li ul,
+#topNav ul li li.sfHover li ul {
+top:			-999em;
+}
+#topNav ul li li li:hover ul,
+#topNav ul li li li.sfHover ul {
+left:			15em; top:			0;
+} table { 
+font-size: 100%; }
+table.data_list {
+width: 100%;
+margin-bottom: 20px;
+border-top: 1px solid #ddd;
+}
+table.data_list th {
+line-height: 2.3em;
+font-size: 0.85em;
+padding: 0 8px;
+color: #999;
+border-bottom: 1px solid #ddd;
+background: #FBFBFB;
+}
+table.data_list td {
+vertical-align: middle;
+line-height: 1.8em;
+padding: 0 8px;
+border-bottom: 1px solid #ddd;
+}
+table.data_list td.days {
+font-size: 1.19em;
+padding: 8px;
+}
+table.data_list td.actions a {
+margin-left: 8px;
+}
+table.data_list td.actions {
+text-align: right;
+}
+table.data_list td.date {
+text-align: center;
+color: #999;
+padding: 8px;
+font-size: 0.85em;
+} form.filter {
+padding: 8px 0;
+border-top: 1px solid #ddd;
+background: #FBFBFB;
+font-size: 0.8em;
+}
+form.filter p {
+float: left;
+margin: 0 10px 0 0 !important;	
+color: #777;	
+}
+form.filter input {
+vertical-align: middle;
+}
+form.filter .submit,
+#commentform #submit {
+font-size: 1em;
+outline: 0;
+border: 0;
+background: #D8D8D8;
+color: #555;
+padding: 7px 10px;
+margin: -2px 0 0 0;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+vertical-align: middle;
+}
+form.filter .submit:hover, form.filter .submit:focus,
+#commentform #submit:hover, #commentform #submit:focus {
+background: #2e4c79;
+color: #fff
+}
+form.main_form fieldset {
+padding: 0 0 0 0;
+}
+form.main_form legend {
+margin: 15px 0 0;
+padding: 10px 0;
+font-weight: bold;
+}
+form.main_form input.text,
+form.main_form textarea,
+form.main_form.contact_form textarea,
+form.account_form input.text {
+border-top: 1px solid #aaa;
+border-left: 1px solid #aaa;
+border-bottom: 1px solid #ccc;
+border-right: 1px solid #ccc;
+background: #fff;
+color: #777;
+font-size: 1.2em;
+padding: 7px;
+width: 50%;
+margin: 0;
+outline: 0;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+form.main_form input.text:focus,
+form.main_form textarea:focus,
+form.account_form input.text:focus {
+background: #f3f3f3;
+}
+form.account_form input.text {
+width: 92%;
+}
+form.main_form select {
+color: #777;
+font-size: 1.2em;
+width: 52.5%;
+margin: 6px 0;
+padding:7px;
+-khtml-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; }
+form.main_form textarea {
+vertical-align: top;
+height: 200px;
+font-size:1.1em;
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+}
+form.submit_form textarea {
+width: 634px;
+}
+form.main_form textarea.short, form.submit_form textarea.short {
+width: 50%;
+height: 50px;
+font-size: 1.2em;
+padding: 7px;
+}
+form.main_form .description {
+display: block;
+font-size: 0.8em;
+color: #777;
+}
+form.main_form p label {
+width: 46%;
+float: right;
+padding-top: 6px;
+}
+form.main_form p,
+form.account_form p {
+clear:both;
+margin: 10px 0 !important;
+padding: 0 2px !important;
+overflow: hidden;
+}
+form.main_form p.optional input.text, form.main_form p.optional textarea {
+border: 1px solid #ddd;
+}
+form.main_form p.optional label {
+color: #999;
+}
+form.main_form .submit,
+form.account_form .submit,
+p.button a {
+font-size: 1.2em;
+outline: 0;
+border: 0;
+background: #D8D8D8;
+color: #555;
+padding: 7px 10px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+vertical-align: middle;
+margin: 0;
+text-decoration: none !important;
+}
+form.account_form a.lostpass {
+padding: 10px 20px;
+float: left;
+}
+form.main_form .submit:hover, form.filter .submit:focus, form.account_form .submit:hover, p.button a:hover {
+background: #2e4c79;
+color: #fff;
+text-decoration: none !important;
+}
+.ui-autocomplete { 
+position: absolute; 
+cursor: default; 
+list-style:none;
+padding: 5px;
+margin: 0;
+display:block;
+background: #F0F0F0;
+border: 1px solid #999;
+text-align: left;
+font-size: 1.3em;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-webkit-border-bottom-right-radius: 6px;
+-moz-border-radius-bottomleft: 6px;
+-moz-border-radius-bottomright: 6px;
+}
+.ui-autocomplete li {
+margin:0;
+padding: 0;
+width: 100%;
+}
+.ui-autocomplete li a {
+text-decoration:none;
+display:block;
+padding:3px 6px;
+line-height:2em;
+zoom:1;
+color: #555;
+}
+.ui-autocomplete li a:hover, .ui-autocomplete li a.ui-state-hover {
+background: #D8D8D8;
+text-decoration:none;
+}
+.ui-autocomplete-loading { background: #fff url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/loading.gif) right center no-repeat; }
+* html .ui-autocomplete { width:1px; }  span#comments-rss a {
+float: right;
+font-size: 0.6em;
+border-bottom: 1px solid #C7E4F1;
+text-decoration: none;
+color: #222;
+}
+ol#comment-list li.bypostauthor .comment-text, ol#comment-list li.bypostauthor img.avatar {
+border-color: #D4E2EB;
+} ul.widgets {
+margin: 0 !important;
+padding: 0;
+text-align: left;
+float: left;
+border-bottom: 1px solid #fff;
+}
+ul.widgets li.widget {
+list-style-type: none;
+margin: 0;
+padding: 30px 0 10px 0;
+font-size: 0.8em;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #dddddd;
+color: #777;
+float: left;
+list-style: none outside !important;
+}
+ul.widgets li.widget-submit {
+padding: 0;
+border-top: 0;
+border-bottom: 1px solid #dddddd;
+}
+ul.widgets li.widget-submit div {
+text-align: center;
+margin: 0 0 20px !important;
+padding: 3px !important;
+background: #ebebeb;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+}
+ul.widgets li.widget-submit div p {
+margin: 12px 0 !important;
+}
+ul.widgets li.widget-submit div p.pricing {
+font-size: 1.3em;
+font-style: italic;
+color: #999;
+line-height: 1em;
+}
+ul.widgets li.widget-submit div p.pricing em {
+font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+font-size: 1.4em;
+color: #555;
+font-style: normal;
+}
+a.button {
+background: #3d5e8e;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+display: block;
+text-align: center;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+padding: 2px;
+line-height: 36px;
+font-size: 16px;
+text-shadow: 0 -1px 0 #2c4b7d;
+}
+a.button span {
+border: 1px dashed #4f6c98;
+display: block;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+}
+a.button:hover {
+background: #fff none;
+color: #2c4975;
+text-shadow: 0 -1px 0 #fff;
+}
+a.button:hover span {
+border-color: #ddd;
+}
+ul.widgets li.widget ul {
+margin: 0 !important;
+padding: 10px 0 !important;
+list-style: none !important;
+}
+ul.widgets li.widget ul ul {
+padding: 5px 0 0 !important;
+}
+ul.widgets li.widget ul ul li {
+margin: 0 20px 0 !important;
+border: 0;
+padding: 0 !important;
+}
+ul.widgets li.widget h2.widget_title {
+padding: 0;
+margin: 0;
+font-weight: bold;
+}
+ul.widgets li.widget .widget_content {
+padding: 0;
+overflow: hidden;
+}
+.textwidget {
+padding: 10px 0 !important;
+} .widget_search .widget_content {
+padding: 15px 10px 0 !important;
+}
+.widget_search input#s {
+border: 1px solid #8D8B8B;
+background: #f7f7f7;
+width: 188px !important;
+display: inline;
+}
+.widget_search #searchsubmit {
+color: #363636;
+background: #fff;
+border: #fff;
+font-weight: bold;
+cursor: pointer;
+border: 0;
+outline: 0;
+display: inline;
+font-size: 11px;
+}
+.widget_search label {
+display: none;
+}	
+.widget_rss img {
+vertical-align: middle;	
+position: relative;
+margin-top: -3px;
+}
+li.widget_categories li.current-cat a,
+li.widget_pages li.current_page_item a {
+font-weight: bold;
+}
+li.widget_categories li.current-cat li a,
+li.widget_pages li.current_page_item li a { 
+font-weight: normal;
+} .widget_tag_cloud .widget_content div {
+line-height: 2em;
+overflow: hidden;
+padding: 10px 0;
+} .widget_calendar th {
+font-weight: bold;
+background: #ebebeb;
+padding: 2px 5px 2px 5px;
+font-size: 1em;
+border-bottom: 1px dotted #ddd;
+}
+.widget_calendar tbody td {
+border:0;
+font-size: 1em;
+padding: 2px 5px 2px 5px;
+text-align: center;
+background: #efefef;
+}
+.widget_calendar tbody td#today {
+font-style: italic;
+}
+.widget_calendar tbody tr td:hover {
+background-color: #d8d8d8;
+border:0;
+}
+.widget_calendar tbody td a {
+text-decoration: none;
+font-weight: bold;
+font-style: italic;
+}
+.widget_calendar #prev,
+.widget_calendar #next {
+padding: 5px 0 0 0;
+}
+.widget_calendar #next {
+text-align: right;
+}
+.widget_calendar #prev a,
+.widget_calendar #next a {
+color: #777 !important;
+font-weight: bold;
+font-style: italic;
+}
+.widget_calendar thead th {
+text-align: center;
+}
+.widget_calendar caption {
+text-align: center;
+font-weight: bold;
+padding-bottom: 5px;
+}
+div#calendar_wrap {
+padding: 0 0 10px;
+}
+.widget_calendar table {
+width: 100%;
+} @media screen and (max-width: 1000px) {
+div#content .inner {
+background: #fbfbfb url(//tem-trading.com/jobs/wp-content/themes/jobroller/images/style-pro-blue/pixel.png) repeat-y right 300px top 0;
+}
+div#content .inner {
+padding: 2%;
+}
+form.main_form p label {
+width: 45%;
+}
+#commentform textarea,
+form.main_form textarea {
+width: 90%;
+} ol.resumes dd.title {
+width: 47%;
+}
+}
+@media screen and (max-width: 860px) {
+div#content .inner {
+background: #fbfbfb;
+}
+#logo {
+padding-right: 0;
+}
+#logo a,
+#logo small {
+text-align: center;
+}
+#logo small {
+margin-bottom: 25px;
+}
+#sidebar, 
+ul.widgets,
+ul.widgets li.widget-submit,
+ul.widgets li.widget {
+float: left; 
+width: 100%;
+} ol.resumes dd.title {
+width: 60%;
+}
+}
+@media screen and (max-width: 710px) {
+#searchform button.submit {
+float: left;
+} ol.resumes dd.title {
+width: 47%;
+}
+}
+@media screen and (max-width: 600px) {
+#header .logo_wrap {
+display: block;
+}
+#logo,
+#mainNav {
+display: block;
+width: 100%;
+}
+#mainNav {
+text-align: center;
+}
+#mainNav ul {
+margin: 0 auto -20px!important;
+float: none;
+}
+#mainNav ul li {
+display: inline-block;
+text-align: center;
+float: none;
+margin: 0 5px 30px;
+}
+#mainNav li a {
+float: none; 
+} form.main_form p label {
+width: auto;
+float: none;
+padding-top: 0;
+text-align: left;
+display: block;
+padding-bottom: 6px;
+}
+form.main_form input.text,
+form.main_form textarea,
+form.main_form.contact_form textarea, 
+form.account_form input.text, 
+#apply_form textarea {
+width: 90%;
+} .col-1,
+.col-2 {
+width: auto;
+float: none;
+}
+.col-1 {
+margin-bottom: 1.65em;
+} ol.resumes dd.title,
+.wider ol.resumes dd.title {
+width: 100%;
+padding-bottom: 10px;
+}
+ol.resumes dd.photo {
+clear: left;
+}
+ol.resumes dd.location {
+width: 50%;
+}
+}
+@media screen and (max-width: 400px) {
+#searchform input.text {
+width: 90%!important;
+}
+}
+.sbHolder{
+background: none repeat scroll 0 0 #0194b3;
+border: 1px dotted #0194b3;
+border-radius: 2px 0 0 2px;
+-moz-border-radius: 2px 0 0 2px;
+-webkit-border-radius: 2px 0 0 2px;
+font-family: Arial,sans-serif;
+font-size: 12px;
+font-weight: normal;
+height: 29px;
+margin-left: -6px;
+margin-top: 7px;
+position: relative;
+width: 90px;
+}
+.sbSelector{
+display: block;
+height: 28px;
+left: 0;
+line-height: 30px;
+outline: none;
+overflow: hidden;
+position: absolute;
+text-indent: 10px;
+top: 0;
+width: 88px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+color: #fff;
+outline: none;
+text-decoration: none;
+}
+.sbToggle{
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/img/select-icons.png) 0 -55px no-repeat;
+display: block;
+height: 30px;
+outline: none;
+position: absolute;
+right: 0;
+top: 0;
+width: 30px;
+}
+.sbToggle:hover{
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/img/select-icons.png) 0 -85px no-repeat;
+}
+.sbToggleOpen{
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/img/select-icons.png) 0 5px no-repeat;
+}
+.sbToggleOpen:hover{
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/img/select-icons.png) 0 -25px no-repeat;
+}
+.sbHolderDisabled{
+background-color: #fff;
+border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+}
+.sbHolderDisabled .sbToggle{
+}
+.sbOptions{
+border: solid 1px #057790;
+border-top: 0px;
+list-style: none;
+left: -1px;
+margin: 1px 0 0 0px;
+padding: 0;
+position: absolute;
+top: 30px;
+width: 90px;
+z-index: 1;
+overflow-y: auto;
+z-index: 2001 !important;
+background: #fff ;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg8.jpg) repeat scroll -2px -2px transparent;
+background: #e8e7e4 ;
+}
+.sbOptions li{
+padding: 0 7px;
+}
+.sbOptions a{
+border-bottom: dotted 0px #ebebeb;
+display: block;
+outline: none;
+padding: 7px 0 7px 3px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+color: #035882;
+text-decoration: none;
+}
+.sbOptions a:hover{
+color: #111;
+}
+.sbOptions li.last a{
+border-bottom: none;
+}
+.sbOptions .sbDisabled{
+border-bottom: dotted 1px #515151;
+color: #999;
+display: block;
+padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+border-bottom: dotted 1px #515151;
+color: #EBB52D;
+display: block;
+font-weight: bold;
+padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+padding-left: 17px;
+}
+.widget-nav{ display:none !important; }
+#content h3, #content h3#reply-title{ margin-top:16px !important;} 
+.jcarousel-wrapper{ border:1px solid #CCC !important; box-shadow:0px 0px 0.5px #999 !important; } body {overflow-x: hidden; }
+.inner {font-size: 12px;}
+#content h1 {margin-top: 5px;font-size: 1.10em;}
+#content h2 { font-size: 15px;}
+#pass1-text { display:none !important;}
+form.main_form p.optional label {color: #555} a:active{outline: none !important;}
+a:focus{-moz-outline-style: none !important;outline: none !important;}
+a:hover, a:focus {color: #019abb;	text-decoration: none !important;}
+h1, h2, h3, h4, h5, h6, .pagetitle { color: #fc4903;  }
+h6 {font-size: 13px}
+#content h3 , #content h3#reply-title {font-size: 1.2em; margin-top: 10px; font-weight: bold;line-height: 1.25em;margin-bottom: 0.5em;}
+#content h3#reply-title {font-size: 1em;color: #664f3f}
+#content h6 {color: #666666;font-size: 1em; line-height: 1.54em; font-weight: bold;}
+#content h3.desco , #content h2.pack_select{font-size:1em;margin-bottom: 8px; border-bottom:1px dotted #a5a5a5;overflow:hidden;font-style: normal;font-family: arial,verdana,tahoma;clear:both;margin:0!important;padding:5px 0 7px 3px}
+#content h2 {margin-bottom: .4em;}
+ol.resumes dd strong  , a, ol.jobs dd strong a , ol.resumes dd strong, a, ol.jobs dd strong a , ol.resumes dd {font-family: arial,tahoma,verdana;font-size: 12px;} body {background:#017f9a;}
+div#content .inner , div#content .inner-r { border: 0px solid #018AA9;font-size: 12px; ;background-image: none !important; ;margin: 0 auto; padding: 0px 10px 5px;position: relative;width: 970px;-webkit-border-radius: 3px;border-radius: 3px; -moz-border-radius: 3px;margin-top: 0px; background: #fff;}
+div#content .inner-r { text-align: left;overflow:hidden ; border-radius: 0 0 3px 3px ;-moz-border-radius: 0 0 3px 3px ;-webkit-border-radius: 0 0 3px 3px;}
+#wrapo {width: 990px; margin: auto; border-radius: 5px; }
+.inner  div#content .inner-r { border: 0px solid #018AA9;margin-top: -1px; }
+.pagetitle {  font-size: 12px;font-weight:bold}
+.inner-all {background:#fff;}
+.section {width: 700px; margin: 0 0 0px 0;padding-right: 00px ;padding-top: 0px;float:left;}
+.section-full{overflow:hidden;height:auto;width:936px!important;padding-top: 10px;}
+.section-comment{overflow:hidden;height:auto;width: 685px;!important;}
+#mainContent{margin-top: 8px;width: 700px;}
+.section_header { margin-bottom: 8px;}
+ul.display_section{overflow:hidden;zoom:1;list-style:none outside!important;margin:0 0 -1px!important;padding:0!important}
+ul.display_section li{float:left;border-right:1px solid #ddd;border-top:1px solid #ddd;border-left:1px solid #ddd;background:#ddd;margin-right:2px;font-size:.75em;padding:8px 12px}
+ul.display_section li.active,ul.display_section li{border-left:1px solid #E4E4E7;border-right:1px solid #E4E4E7;border-top:1px solid #E4E4E7;border-radius:2px 2px 2px 2px;border-bottom:medium none;font-size:11px;font-weight:400;background:#f5f5f2 url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tab2.jpg) repeat-x center top;margin:1px 1px 0 0;padding:5px 10px}
+ul.display_section li.active{background:#fff}
+ul.display_section li:hover{background:#f5f5f2}
+ul.display_section li a{color:#333333; font-size: 12px;}
+ul.display_section li a:hover{color:#06C}
+ul.display_section li a:focus{color:#023976}
+.comment-bubble a{margin-top: 2px; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bubble.jpg) no-repeat 0 0;display:block;font-weight:400;font-size:12px;height:40px;padding-top:9px;text-align:center;text-decoration:none;width:49px}
+.comment-bubble a:hover{color:#0177ef}
+.spacer{clear:both}
+.spacer-line {clear:both;border-top: 0px solid #fff;padding-top: 10px;opacity: 0.2;}
+.spacer-lino{padding-top: 8px;clear:both;}
+.displ {display: none;}
+.widget_user_info ul li{line-height: 2.5em !important;}
+table.data_list td.date ,table.data_list th , table.data_list td { font-size: 1em;color: #555 ; padding: 4px;}
+div#content {background: none !important; padding:  0;}
+#apply_form, #share_form {  background: none;}
+#content ul li {line-height: 1.8em;}
+small {font-size: 11px;}
+#home-featured-left{float: left;width:284px !important;height: 192px;border: 1px solid #e4e4e7;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:3px;display:block;margin:1px;padding:0 0 12px 5px !important}
+#home-featured-right{float: left;width:396px !important;border:1px solid #e4e4e7;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;display:block;margin:1px;padding: 0 3px 2px 4px}
+#home-featured-left ul,#home-featured-right ul{list-style:none;margin-top:-7px;padding:0!important}
+#home-featured-left a {margin-left: 17px;margin-top: 18px}
+#home-featured-right ul.home-ad, #content ol.jobs, ol.resumes {
+margin: 0 !important;
+padding: 0 !important;
+} #header .inner {padding: 5px 0 65px;}
+#header ,#header-no  {background: #f6f6f6;border-top: 1px solid #d9d7d7;height:290px; -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12) inset;box-shadow:0 2px 4px rgba(0, 0, 0, 0.12) inset;}
+#header-no  {height:70px;}
+#head-footy{border-bottom: 4px solid #f23a01; }s
+.header-1 {float: left; border: 0px solid #000;width: 720px;margin-right: 5px;}
+.header-2 {float: right; border: 0px solid #000; }
+#banner {background: #fff;border-top: 1px solid #D9D7D7; }
+.header-l{min-height: 78px;padding-top: 8px;margin-bottom: 5px;-moz-border-radius: 0px 0px 2px 2px;-webkit-border-radius: 0px 0px 2px 2px; border-radius: 0px 0px 2px 2px;}
+#header h1 {font-size: 2em;color: #01a176;font-weight: bold;font-family: arial,tahoma,verdana;margin-bottom: 0px;margin-top: 26px;}
+#header h2 {font-size: 1em;color: #422711;margin-bottom: 15px;}
+#mainNav, #logo {float: left !important;}
+.logo_wrap h1#logo { letter-spacing: 0px; margin: 0px 10px 0 10px;padding-right: 10px; text-shadow: none;font-weight: bold;font-size: 13px}
+.logo_wrap h1#logo a {font-style:italic; color: #0C53A3;}
+#logo { min-height: 90px !important;overflow: hidden; min-width: 220px; max-width:450px;letter-spacing: 0px; margin: 0 10px 0 0;padding-right: 10px; text-shadow: none;font-weight: bold;}
+#logo a {color: #fc3e03;display: block;font-size: 2.4em !important;font-weight: bold;line-height: 1em !important;text-decoration: none !important;text-shadow: 0;margin: 5px 0 0 10px;}
+#logo small {font-style:normal; color: #444; display: block;font-family: arial,tahoma,verdana;font-size: 1em !important;margin-top: 0.3em;margin-left: 6px;}
+ul.home-ad {height: 90px !important;border: 0px solid #000}
+ul.home-ad li a{float:left;background:#fff;width:110px;height:75px;border:1px solid #E4E4E7;padding:1px!important;  margin-left:2px; margin-right:3px; margin-top:2px; margin-bottom:2px}
+ul.home-ad li a:hover{}
+#headerAd { border: 1px solid #ebebeb;   float: left; height: 70px; width: 480px;margin-top: 5px;    margin-right: 5px;}
+.menus-s{height: 38px; background: #000 url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/under-menu.png) repeat-x 0 bottom; border-radius: 3px 3px 0 0 ; -webkit-border-radius: 3px 3px 0 0 ; -moz-border-radius: 3px 3px 0 0  }
+.menus-bg{ padding-bottom: 5px;    }
+.menu-head{height: 5px;background: #019fc2;}
+.menu-tabs   {min-height: 46px;margin-bottom: 0px; background: #fff; border-top: 0px; border-radius: 3px 3px 0 0 ;-moz-border-radius: 3px 3px 0 0 ;-webkit-border-radius: 3px 3px 0 0 ;   }
+.menu-tabs-ss  {  }
+.sliderss {width: 100%; border-bottom: 0px solid #ccc;    }
+.mainso {margin: 3px 3px 0px; overflow: hidden;border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.tp-cornerleft, .tp-bullets.simplebullets, .tp-cornerright {background: none !important;}
+.tp-bullets.simplebullets.round {}
+.tp-bullets.simplebullets.round .bullet {background: #fff; border: 1px solid #222 ; border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%; }
+.tp-bullets.simplebullets.round .selected {background: #016F9D;border: 1px solid #016F9D; border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%; }
+ul.widgets li.widget ul.ads{overflow:hidden;list-style:none!important;background:none!important;margin:0 0 14px!important;padding:0!important}
+ul.home-ad li a {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+border: 1px solid #E4E4E7;
+border-radius: 3px;
+float: left;
+height: 75px;
+list-style: none outside none !important;
+margin: 2px;
+padding: 1px !important;
+width: 90px;
+}
+.widget_content li.logos a{padding:0px !important;padding-bottom:1px !important; list-style: none; border: 0px; margin:0px; width: 79px;}
+ul.widgets li.widget_jr_250ad div{margin:0 auto!important}
+ul.home-ad li a:hover{box-shadow:1px 1px 0 #e6e5e5;-moz-box-shadow:1px 1px 0 #e6e5e5;-webkit-box-shadow:1px 1px 0 #e6e5e5}
+ul.ads li {
+border: 0 none;
+float: left;
+margin: 0 3px 3px;
+padding: 0;
+width: 78px;
+}
+ul.ads li a { border: 1px solid #DDDDDD;
+float: left;
+margin: 0;
+padding: 0;
+width: 78px;}
+#content h2.home-title {
+color: #027BB3;
+font-size: 12px;
+margin-left: 15px;
+margin-top: 10px;
+padding-bottom: 5px;
+}
+.header-landing {padding-top: 15px;min-height: 150px; color: #fff }
+#liner {opacity: 0.5; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/liner.png) repeat-x 0 -1px; height:2px; width: 97%;margin: 0 auto; margin-top: 10px;margin-bottom: 8px;}
+#lefto {float:left; border: 0px solid #000; margin: 5px; width: 48.78%; height: 115px;}
+#lefto .left , #lefto .right {text-align: left;height: 85px; width:288px; float:right ; color: #fff; font-size: 11px;line-height: 20px;overflow: hidden;}
+#lefto .right {float:left}
+#head-img-1, #head-img-2 {border-radius: 3px;float:right;height: 110px ; width: 180px; border: 5px solid #d6d4d0;  border: 5px solid rgba(0, 0, 0, .15);
+border: 5px solid rgba(0, 0, 0, .15);
+-webkit-background-clip: padding-box; background-clip: padding-box; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/gr-2.jpg) no-repeat 0 0px; 
+}
+#head-img-2 {float:left ; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/gr-1.jpg) no-repeat 0 0px; }
+#depos, #depos-2 {font-weight: bold;margin-top: 2px; float: right; margin-right:4px; min-width: 120px; height: 42px; }
+#depos, #depos-2 {text-align: center; line-height:40px;float: left;margin-left:4px; }
+#depos {float:right;}
+#depos a, #depos-2 a {padding: 0 10px; color: #222 ;  text-shadow: 0 1px #F0F0F0; }
+#depos a:hover, #depos-2 a:hover {color: #000}
+#depos span, #depos-2 span { margin: 1px;border: 1px solid #000 ; min-width: 140px; height: 25px;}
+#depos:hover , #depos-2:hover { }
+#deps {background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/sub-bg.png) no-repeat 0px 0px;margin: 0px; min-width: 150px; height:40px;padding: 0 0px; margin: 0 65px }
+.menus-s ul , .menus-s ul.dashboard{list-style: none;width:720px; padding: 0px; height: 30px;float:left;}
+.menus-s li , .menus-s li.dashboard {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/spliter.jpg) no-repeat scroll right 2px transparent;line-height: 32px;height: 32px; padding: 0 8px; float:left;margin: 2px 1px;text-align: center;border-bottom: 0}
+.menus-s li a {color: #fff}
+.menus-s ul.dashboard{float:right;width: 240px;}
+.menus-s li.dashboard  { ;float:right ; background-position: left;border-bottom:0px;padding: 0 10px;}
+.menus-s li:hover { color: #016F9D}
+.menus-s li.dashboard:hover {}
+.menus-s li.menu-item-home a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/item-home.png) no-repeat scroll 0 -2px transparent;
+float: left;
+height: 16px;
+margin-top: 6px;
+padding: 5px 10px 0 5px;
+text-indent: -9999px;
+width: 10px;
+}
+.menus-s ul {list-style: none;width:720px; padding: 0px;margin: 3px 3px 0; margin-right: 3px; height: 30px;float:left; }
+.menus-s li , .menus-s li.dashboard { position: relative; background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/spliter.jpg) no-repeat scroll right 0px transparent;line-height: 32px;height: 28px; padding: 0 7px 6px;margin: 0px 1px;text-align: center;border-bottom: 0}
+.menus-s li.dashboard {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/spliter.jpg) no-repeat left 0px transparent }
+.menus-s li a {color: #fff}
+.menus-s li.menu-item-home a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/item-home.png) no-repeat scroll 0 -2px transparent;
+float: left;
+height: 16px;
+margin-top: 4px;
+padding: 5px 10px 0 5px;
+text-indent: -9999px;
+width: 10px;
+}
+.menus-s li.menu-item-home a:hover {
+background-position: 0 -23px;
+}
+.menus-s li a:hover { color: #888} 
+.menus-s ul ul:after { 
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: transparent transparent #F5F5F5;
+border-image: none;
+border-style: solid;
+border-width: 6px 6px 5px;
+content: "";
+left: 5px;
+position: absolute;
+top: -10px;
+}
+.menus-s ul ul ul:after { 
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-top: 6px solid transparent;
+border-bottom: 5px solid transparent; 
+border-right:6px solid #F5F5F5; 
+border-image: none;
+content: "";
+left: -11px;
+position: absolute;
+top: 12px;
+}
+.menus-s ul ul { 
+display: none; 
+position: absolute;
+top: 30px;
+width: auto;
+left: -6px;
+border: 2px solid #CCCCCC;
+border-top: 0px;
+height:auto;
+-webkit-box-shadow:  1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow:  1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:  1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0 0 3px 3px;
+-moz-border-radius: 0 0 3px 3px;
+-webkit-border-radius: 0 0 3px 3px;
+z-index: 100;
+}
+.menus-s ul ul li  { 
+background: #FDFDFC;
+float: none;
+margin: 0px;
+min-width: 150px; 
+text-align: left;
+padding: 2px 8px;
+height: 30px;
+}
+.menus-s ul ul li a,.menus-s ul ul li a   { 
+color: #222;
+}
+.menus-s ul ul li a:hover,.menus-s ul ul li a:hover   { 
+color: #000;
+}
+.menus-s ul ul.sub-menu li a:hover, .menus-s ul li.menu-item-home ul li a:hover, .menus-s ul li.menu-item-home ul li a:hover  { 
+background: none !important;
+background: #eeeeee;
+}
+.menus-s ul ul.sub-menu li a , .menus-s ul li.menu-item-home  ul li a ,  .menus-s ul li.menu-item-home  ul li a:hover {
+padding: 0px; 
+background: none ;
+text-indent: 0 ;
+margin-top: 0px ;
+width: auto;
+}
+.menus-s ul ul li:hover  { 
+background: #eeeeee;
+}
+.menus-s ul li:hover > ul {
+display: block; 
+}
+.menus-s  ul ul li ul {
+left: 162px;
+top: -3px; 
+}
+#topNav {background: #333333; position:fixed;left: -1px; z-index:999; padding: 0 0 0px;margin: 0px 0 0;height: auto; border-top: 0px;  -moz-border-radius: 0px 0px 3px 3px; -webkit-border-radius: 0px 0px 3px 3px;border-radius: 0px 0px 3px 3px; width: 100%; }
+#topNav1 {padding: 0 0 0px;height:30px; border-top: 0px;  -moz-border-radius: 0px 0px 3px 3px; -webkit-border-radius: 0px 0px 3px 3px;border-radius: 0px 0px 3px 3px; width: 100%; }
+#topNav ul{border: 0px; float:left;width: 1180px;text-align:left;line-height:1!important;font-size:11px;border-right:0 solid #d8d8d8;margin:0 0 0 0px !important;padding:0}
+#topNav li{border: 0; list-style:none outside;float:left;position:relative;margin:0 0 -8px;padding:0 0 8px;}
+#topNav li a{border:0; color:#ffffff;float:left;text-decoration:none;border-right:0 solid #d8d8d8;margin:0!important;padding:10px}
+#topNav li.right a{border-left:0 solid #d8d8d8;border-right:0;}
+#topNav li.current-menu-item a,#topNav li.current_page_item a,#topNav li a:hover,#topNav li a:focus{background: none;text-decoration:none!important ; color: #fbe602}
+#topNav li.right.current-menu-item a,#topNav li.right.current_page_item a,#topNav li.right a:hover,#topNav li.right a:focus{background: none;text-decoration:none!important}
+#topNav ul ul{line-height:1;position:absolute;top:-999em;width:18em;font-weight:400;border:0;border-bottom:1px solid #d8d8d8;float:none!important;font-size:1em;margin:1px 0 0 50px !important;padding:0!important}
+#topNav ul ul ul{margin:0 0 0 -1px !important}
+#topNav ul ul li{width:100%;float:none;background:#fbfafa;margin:0;padding:0}
+#topNav ul ul li a{float:none;display:block;line-height:2.2em!important;border-top:1px solid #d8d8d8;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;background:transparent!important;padding:0 10px}
+#topNav ul ul li.current-menu-item a,#topNav ul ul li.current_page_item a{background:#f9f8f8!important;color:#555}
+#topNav ul ul li {color: #333}
+#topNav ul ul li a {color: #444 !important}
+#topNav ul ul li a:hover  {color: #111 !important}
+#topNav li:hover,#topNav li.sfhover{visibility:inherit}
+#topNav ul ul li:hover{background:#f3f2f2}
+#topNav ul li:hover ul,#topNav ul li.sfHover ul{left:0;top:2.86em;z-index:99}
+#topNav ul li li:hover ul,#topNav ul li li.sfHover ul{left:18em;top:0}
+#topNav ul li li li:hover ul,#topNav ul li li li.sfHover ul{left:15em;top:0}
+.floating {margin: 0 auto;z-index: 1200}
+.banner{  margin: 0 auto 10px; overflow: hidden; }
+.bannero {background: #fff; margin-bottom: 0px;border-radius: 0 0 3px 3px ;-moz-border-radius: 0 0 3px 3px ;-webkit-border-radius: 0 0 3px 3px;}
+.tabcontrol {overflow: hidden; background: #fff;padding-bottom: 5px;border-radius: 0 0 3px 3px ;-moz-border-radius: 0 0 3px 3px ;-webkit-border-radius: 0 0 3px 3px;}
+.tabcontrol ul.tabnavig {clear: both; width: 700px;margin: 0 !important; height: 32px; padding: 4px 4px 0;  list-style: none inside none !important;}
+.tabcontrol li.tab a {display: block ; padding: 5px 10px; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tab1.jpg) repeat-x 0 0; border: 1px solid #fff; border-style: solid solid none; text-align:center;margin: 0px;-webkit-border-radius: 2px;border-radius: 2px; -moz-border-radius: 2px; }
+.tabcontrol li.tab  a{color: #555; font-weight: bold; }
+.tabcontrol li.tab  a:hover , .tabcontrol li.tab  a.selected{background: #fff ;color: #222 !important}
+.tabcontrol li.tab:hover  { }
+.tabcontrol li.tab2  {float:left;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tabo.jpg) repeat-x 0 0; border: 1px solid #b2b1b1;  padding: 7px 10px;width: 149px;text-align:center;margin: 2px;-webkit-border-radius: 2px;border-radius: 2px; -moz-border-radius: 2px;}
+.tabcontrol li.socio1 , .tabcontrol li.socio2, .tabcontrol li.socio3 , .tabcontrol li.socio4{float:right;width:24px;height: 15px;padding: 11px 0px 3px 5px;}
+.tabcontrol li.socio1 a{padding: 7px 12px 0; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twito.png) no-repeat -1px -19px;}
+.tabcontrol li.socio1 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twito.png) no-repeat -1px 0px;}
+.tabcontrol li.socio2 a{padding: 7px 12px 0; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/facebo.png) no-repeat -2px -20px;}
+.tabcontrol li.socio2 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/facebo.png) no-repeat -2px 2px;}
+.tabcontrol li.socio3 a{padding: 7px 12px 0; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rsso.png) no-repeat -2px -19px;}
+.tabcontrol li.socio3 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rsso.png) no-repeat -2px 0px;}
+.tabcontrol li.socio4 a{padding: 7px 12px 0; background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/linkedd.png) no-repeat -2px -21px;}
+.tabcontrol li.socio4 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/linkedd.png) no-repeat -2px -1px;}
+.tabcontrol li.lasti {height: 5px;float:left;}
+.blocks {clear: both;overflow: hidden;padding: 0px 0px 2px ; width: 700px;float:left ; }
+.rego1, .rego2, .rego3 {background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rego-1.jpg) no-repeat 0 0;position: absolute;margin-top: -4px;margin-left: 17px;height: 10px; width: 10px;}
+.rego2 {background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rego-1.jpg) no-repeat 0 0;}
+.rego3 {background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rego-1.jpg) no-repeat 0 0;}
+.undertab , .undertabs {float:left;padding: 12px 10px; border: 1px solid #DDDDDD; height: 12px; width: 678px;display: block !important;margin-top: -2px;margin-bottom: 2px; -moz-border-radius: 2px ;-webkit-border-radius: 2px ;border-radius: 2px;}
+.undertabs {margin-top:1px;height: auto;}
+.undertab h2 {margin: 0;padding: 0;color: #444;  font-size: 13px !important;float: left;}
+.undertab span {color:#444; padding-left: 5px;}
+.tabcontrol ul.tabnavig li {
+border: 1px solid #b2b1b1;
+margin: 0 2px;
+float:left;
+-webkit-border-radius: 2px;border-radius: 2px; -moz-border-radius: 2px;
+border-bottom: none; 
+} #button-r{width: 110px;float: right; height: 40px;}
+.inner-footer , .inner-footer-v {overflow:hidden;margin-top: 5px;padding: 8px 0 8px 0;margin-bottom: 2px;}
+.inner-footer-v {overflow:hidden;margin-top: 0px;border: 0px solid #000;background: none;padding:0px;width:958px;margin-left: auto; margin-right: auto;padding: 3px 0 3px 6px;}
+.inner-footer-v ul {list-style: none;padding: 0;margin: 0px;}
+.inner-footer-v li {float:left;width: 314px;margin-right: 5px;height: 100px;background: #fff; box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) !important;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
+.copy {text-align:left;width:942px;padding-bottom:0px;margin:0 auto;font-size: 11px;}
+.menu555 , .menu444{top:0;left:0;font:13px/27px Arial,sans-serif;color:#000;height:30px;float:right;margin-right: 0px; margin-top: 4px; }
+.menu555 a , .menu444 a{text-decoration:none;padding:6px 8px 7px;color:#fff;outline:none;}
+.menu555 a:hover , .menu444 a:hover{color:#fff;}
+.menu555 a:focus , .menu444 a:focus{color:#fff;}
+.menu555 ul , .menu444 ul{list-style:none;margin:0;padding:0 0 0 0px;}
+.menu555 ul li , .menu444 ul li{padding:0;float:right; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius:3px;padding: 0px 8px 0px 6px; position: relative;float:right;color: #555;background: #c2028e}
+.plus{height: 28px;width: 15px;display: block;float:left;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/plus.png) no-repeat 5px center;}
+.arri ,.arri2 {border-color: transparent transparent #7f7f7f transparent;border-style: dashed dashed solid; border-width: 0 8px 8px;cursor: default;display: inline-block;font-size: 0;height: 0;left: 280px;line-height: 0;position: absolute;top: -9px;width: 0; z-index: 1000;}
+.arri2 {top: -8px;border-color: transparent transparent white transparent;}
+.slo-top {height: 85px;border-bottom: 1px solid #BEBEBE;padding: 5px;-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);box-shadow:0 2px 4px rgba(0, 0, 0, 0.12);background: #fff;}
+.slo-bot {height: 30px;padding: 5px;z-index: 100;}
+.slo-top dl.at{list-style: none;float:left;padding: 8px;height: 55px;border: 0px solid #000;width: 94%;margin:0px !important;}
+.slo-top li#at0, .slo-top li#at{background: #fff;line-height: 18px;}
+.slo-top li#at0 {color: #000}
+.slo-top li#at2{background: #fff;line-height: 18px;float:left;width: 32.5%;margin-top: 5px;}
+.slo-top li#res{background: #fff;line-height: 18px;float:left;width: 35%;margin-top: 5px;}
+.slo-top li#at a {color: #ED0101;padding: 0 !important}
+.slo-top li#at2 a , .slo-top li#res a {padding: 0px;color: #03ad80}
+.slo-top li#at2 a:hover, .slo-top li#res a:hover {color: #000000}
+.slo-top li#at a:hover {color: #012d84}
+.slo-top li{line-height: 15px; color: #cc0000:}
+#logout {-moz-user-select: none; background: -moz-linear-gradient(center top , #FFFFFF, #F1F1F1) repeat scroll 0 0 transparent;border: 1px solid #C6C6C6;border-radius: 2px 2px 2px 2px;color: #666666;float: right; padding: 0 8px 0 6px;	cursor: default !important; display: block;font-weight: bold; height: 29px; min-width: 54px; padding: 0 8px;text-align: center; text-decoration: none !important;}
+#logout a {color: #666 !important;}
+#logout a:hover {color: #333 !important;}
+#lastlogin{height: 10px;width: 210px;padding-left: 5px;border: 0px solid #000;float:left;}
+#logout:hover {background-color: #F8F8F8;background: -moz-linear-gradient(center top , #FFFFFF, #F1F1F1) repeat scroll 0 0 transparent;border: 1px solid #C6C6C6;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);}
+.oldie .slo-top {height: 120px;}
+.menu555 ul li.s.active , .menu444 ul li.s.active{   background: -moz-linear-gradient(center top , #a40178, #c2028e);display:block;position:relative;z-index:1;color:#0367d8;}
+span.green {color: #e400bc;font-weight: bold;}
+.menu555 ul li ul li , .menu444 ul li ul li{padding:0;float:right;margin:0 0 0 0px;width:100%;background: #F5F5F5 ;-webkit-border-radius: 2px;border-radius: 2px;border: 0;z-index: 100;}
+.menu555 ul li ul , .menu444 ul li ul{position:absolute;border:1px solid #C3D1EC;margin:12px 0px 15px -205%;display:none;padding:0px 0px 0px 0px;background: #ffffff !important;width: 315px;border: 1px solid #BEBEBE; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);float:right;-webkit-border-radius: 2px;border-radius: 2px; z-index: 100;color: #444;}
+.active ul{display:block !important;}
+.oldie .slo-top {  background:  #FFFFFF !important;z-index: 1000 !important;} #mainNav ul { float: left;}
+#menu-right {float: left;margin-top: -7px;}
+#mainNav li {display: inline;float: left;line-height: 1em;margin: 0 0 0.2em 10px;padding: 0;border: 0;}
+#mainNav li a {background: none;color: #c2028e;border-radius: 3px;}
+#mainNav li a:hover, #mainNav li a:focus { background: #c2028e; color: #fff;}
+#mainNav li.current_page_item a, #mainNav li.current_page_ancestor a,  #mainNav li.current_page_parent a, #mainNav li.current-cat a, #mainNav li.current-menu-item a {	background: #c2028e;color: #fff;}
+#mainNav{ margin-top: 25px;width: 630px;} .pagination-s {clear:both;padding:10px 0 5px;position:relative;font-size:11px;line-height:13px;margin-right: 20px;}
+.pagination-s span, .pagination-s a {display:block;float:left;margin: 2px 2px 2px 0;padding:6px 9px 5px 9px;text-decoration:none;width:auto;color:#fff;background: #888;border-radius: 2px;}
+.pagination-s a:hover{color:#fff;background: #016f9d;}
+.pagination-s .current{padding:6px 9px 5px 9px;background: #016f9d;color:#fff;} #searchform-s div.search-wrap {backgrgound: none ; width: 260px;}
+#searchform-s div.search-wrap-widget {background: none ;padding-bottom: 40px;}
+#searchform-s button.submit {text-indent: 0 !important;}
+searchform input.text {background:transparent none; width:232px; padding: 7px 10px; margin: 6px 0px;float:none;border: 0px solid #000 !important;font-size: 12px;font-family: arial,tahoma,verdana;color: #444;-webkit-border-radius: 2px;border-radius: 2px; border: 0;}
+#searchform-s input#search ,#searchform-s input #searchform-s input#near  {background:#fff; padding: 7px 10px;  margin: 2px 0px;float:none;font-size: 12px;font-family: arial,tahoma,verdana;color: #444;-webkit-border-radius: 2px;border-radius: 2px;border: 1px solid #bbb;clear:both;width: 228px;}
+.radius {float:left;margin-left: -96px; display:none ; }
+.radius-2 {float:left !important;  }
+#searchform-s button.submit , #searchform-s button.submit-2 {height: 29px;width: 123px;float:right;padding:0 ; text-transform: uppercase; letter-spacing:1px;font-size: 12px;font-weight: bold;font-family: arial,verdana,tahoma;color : #fff;margin-left: 6px;-webkit-border-radius: 2px;border-radius: 2px;margin-top: 0px;background: #02be8c; border: 1px solid #01926c;}
+#searchform-s button.submit:hover {background: #01946d;border: 1px solid #00825f}
+#searchform-s button.submit-2 {cursor:pointer;float:left;margin-top: 2px; background: #0193b2; border: 1px solid #01829e;color: #fff;margin-top: 2px !important;margin-right:1px ;}
+#searchform-s button.submit-2:hover {color: #01392a;background: #02e4a8;}
+.radius-label ,.radius-label-no  {float:left;border: 0px solid #000;margin: 2px 5px;line-height:30px;padding-right: 84px;color: #422711;}
+.radius-label-no  {padding-right: 30px;}
+#searchform-s button.submit-no {border: 0px;  background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/srbt.png) no-repeat scroll 0 0 transparent;cursor:pointer;height: 42px;width: 150px;float:left;padding:0 ; text-transform: uppercase; letter-spacing:1px;font-size: 12px;font-weight: bold;font-family: arial,verdana,tahoma;color: #222 ;  text-shadow: 0 1px #F0F0F0;margin-left: 6px;}
+#searchform-s button.submit-no:hover {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/srbt.png) no-repeat scroll 0 -42px transparent;padding-top: 2px;}
+#searchform-s div.search-wrap-no {float:left;background: none ; margin: 11px 0 0 110px; width: 88%; }
+#searchform-s div.search-wrap-no2 {margin: 15px 0 5px 0;}
+#searchform-s input#search-no ,#searchform-s input, #searchform-s input#near-no  { border: none; background:none; padding: 8px; float:left;font-size: 12px;font-family: arial,tahoma,verdana;color: #444;width: 228px; background:  url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/input-bg.jpg) repeat-x; margin: 0px }
+.bordered {  border: 5px solid rgba(0, 0, 0, 0.20);
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+display: block;
+float: left;
+margin: 2px 5px 2px 0;}
+#searchform-s input#near-no {padding-right: 100px; }
+.search-wrap-no2 input#near , .search-wrap-no2 input#search {background: none; width: 43% !important; border: 1px solid #BBBBBB;padding: 7px 10px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.radius-s {margin-left: 5px;float: left;margin-top: 2px; width: 80px !important;padding: 5px; border: 1px solid #BBBBBB; border-radius: 2px; -moz-border-radius: 2px;-webkit-border-radius: 2px; }
+.radius-s select {border: 0px;}
+#searchform-s .search-wrap-no2 button.submit {width: 12% ;margin-top: 2px; float:left; }
+#res-search {float:left; width: 72%; }
+.counter {float:left;padding-top: 12px;padding-left: 11px; font-weight: bold; color: #e44101; width: 145px; height: 28px;margin: 9px 0px 0 12px ; background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/spliter.jpg) 0 center no-repeat}
+.mapi {background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/marker.png) no-repeat -2px 0px; border:0px solid #000; width:18px;height: 24px; float:right ; margin: 16px 8px 0 1px ;} a, ol.jobs dd strong a {color: #333;text-decoration: none;}
+ol.jobs dd strong a {color: #333;text-decoration: none;}
+div.tito{border:0 solid #E4E4E4;float:left;width:580px;margin:0!important;padding:0 0 0 0px}
+.tito h2.title {color: #f42e00;font-size: 13px !important; line-height: 1.3em !important}
+.details ul{list-style:none !important;margin:2px 0 6px 5px!important;padding:0!important}
+span.detail {font-size: 1em;font-weight: bold; color: #0c53a3}
+.details li#topss{padding-left:12px;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/listos.jpg) 0px 6px no-repeat}
+.details li#topss a:hover{color:#14a37c}
+p.stats{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/counter.jpg) no-repeat 0 9px;float:right;margin: 0px 0 0 !important;padding:8px 0 0 20px}
+.section_footer{background: none;border-radius:2px 2px 2px 2px;overflow:hidden;list-style:none!important;margin:0!important;padding:0;border-color: #DCDCDC;}
+.section_footer li a{float:left;border-right:1px dotted #e4e4e7;font-weight:700;color:#0C53A3;padding:10px 8px 10px 33px}
+.section_footer li:first a{-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;border-bottom-left-radius:6px}
+.section_footer li.apply a.active{background: transparent url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/briefcase.png) no-repeat 9px 12px;color:#555}
+.section_footer li a:hover{color: #333}
+li.print{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/printo.jpg) no-repeat 10px 12px}
+li.map{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/marker.jpg) no-repeat 12px 12px}
+li.apply{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/briefcase.png) no-repeat 9px 12px}
+li.share{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/share.png) no-repeat 9px 12px}
+li.star{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/star.png) no-repeat 11px 12px}
+ol.jobs dd {font-family: arial,tahoma,verdana;}
+ol.jobs dd strong, div.date strong, td.date strong {font-family: arial,tahoma,verdana;font-size: 1em;float:left;}
+div.date-s strong {border-radius: 2px;-webkit-border-radius: 2px; -moz-border-radius: 2px; font-family: arial,tahoma,verdana; font-size: 1em;float:right;margin-top: 0px;margin-bottom: 4px;font-weight: normal;background: #ebebeb;padding: 4px;}
+span.detail { font-size:16px;}
+#location , #location-indeed {float:left ; overflow:hidden; width: 412px}
+#location-indeed {width: 512px;}
+#date{ border-left: 1px dotted #888;float:left;padding-left: 5px;padding-right: 5px; text-align: left}
+#exc ,#exc-prev , #exc-3  {margin-bottom: 0px; margin-top: -4px; border: 0px solid #000 ;float:left; width: 570px; line-height: 19px;overflow:hidden;font-size: 12px ; min-height: 45px !important}
+#exc-prev {min-height: 38px !important}
+#exc-3 {width: 540px; }
+#details-2,#details-f {border-left:1px dotted #888;border-right:0px dotted #888;float:left;padding-left:5px;padding-right:5px;overflow:hidden;}
+#details-f{color:#026aac}
+#faceb, #linkedin ,#twitter {border:0 solid #000;overflow:hidden;width:25px; float: right;    margin-right: 3px;}
+#faceb a{border:0 solid #000;float:left;overflow:hidden;width:16px;height:16px;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/f-icon.jpg) 0 0 no-repeat;text-indent:-9999px;margin:0px 0 0 5px}
+#faceb a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/f-icon.jpg) 0 -16px no-repeat}
+#linkedin a{border:0 solid #000;float:left;overflow:hidden;width:16px;height:16px;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/linked.jpg) 0 0 no-repeat;text-indent:-9999px;margin:0px 0 0 5px}
+#linkedin a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/linked.jpg) 0 0px no-repeat}
+#twitter a{border:0 solid #000;float:left;overflow:hidden;width:16px;height:16px;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twit.jpg) 0 0 no-repeat;text-indent:-9999px;margin:0px 0 0 5px}
+#twitter a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twit.jpg) 0 0px no-repeat}
+#titlo , #titlo-featured {float: left;margin-top: 2px;  width: 460px; margin-top: 4px;padding-bottom: 6px}
+#titlo a,#titlo-featured a,#titlo-indeed a , ol.jobs li.job-expired a , ol.jobs li a{color:#f34b01 !important;font-style:normal;font-weight:700}
+#titlo a:hover, #titlo-featured a:hover, #titlo-indeed a:hover  a:hover , ol.jobs li.job-expired a:hover , ol.jobs li a:hover{color:#555 !important;}
+#titlo a:hover, #titlo-featured a:hover, #titlo-indeed a:hover  a:hover{color:#f34b01;}
+#titlo a, #titlo-featured a, #details-2 a, #details-f a {color: #0C53A3 !important;}
+#titlo a:hover, #titlo-featured a:hover , #details-2 a:hover, #details-f:hover a{color:#f34b01 !important;}
+ol.jobs li.job-expired a:hover, ol.jobs li.job-expired dd:hover , ol.jobs li a:hover, ol.jobs li dd:hover {color:#2e7f12;}
+ol.jobs li.job-expired strong {color: #555 !important;}
+#type-tag-prev span  {text-indent: -9999px;width: 6px;border: 0px solid #000;float:right ; background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) no-repeat 0 -51px;height: 25px}
+#type-tag span  {line-height:25px;font-size: 12px;float:right ; background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -51px no-repeat;min-width: 60px; height: 25px;color: #fff;padding: 0 10px 0 5px}
+#type-tag span.full-time{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -1px no-repeat;}
+#type-tag span.part-time{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -79px no-repeat;}
+#type-tag span.freelance{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -53px no-repeat;}
+#type-tag span.temporary{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -105px no-repeat;}
+#type-tag span.internship{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -27px no-repeat;}
+#type-tag span.featured{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 100% -131px no-repeat;}
+#type-tag-prev span.full-time{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -1px no-repeat;}
+#type-tag-prev span.part-time{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -79px no-repeat;}
+#type-tag-prev span.freelance{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -53px no-repeat;}
+#type-tag-prev span.temporary{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -105px no-repeat;}
+#type-tag-prev span.internship{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -27px no-repeat;}
+#type-tag-prev span.featured{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tag.jpg) 0 -131px no-repeat;}
+ol.jobs {border-top: 0px solid #DDDDDD; }
+ol.jobs li {line-height: 12px !important; }
+ol.jobs li.job, ol.jobs li.job-expired, ol.jobs li.job-alt   {border: 1px solid #DDDDDD  ; margin-top:2px !important;background: #fff ; -webkit-border-radius: 2px ; border-radius: 2px;padding:5px 3px 5px 5px ; color: #555 !important;}
+ol.jobs li.job-expired {border: 1px solid #DDDDDD !important  ;background: #fff;}
+ol.jobs li.job-featured {background: #eefafd; border-color: #85e7fc;}
+ol.jobs li.job-alt   {background: #fafaf7 }
+ol.jobs li.job-featured.job-alt  {background: #f6fbfd}
+#logoso-listing{ margin-top: 3px;background: #fff url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/no-logo.jpg) center center no-repeat;float:left;list-style:none!important;width:90px;height:75px;border:1px solid #E4E4E7;border-radius:0;overflow:hidden;margin-right:2px;margin-left:0!important;padding:1px !important  ; margin-right:5px;}
+#logoso-listing img.logoso , #logoso-listing img{padding: 0px 0 0 0 !important; border: 0 !important;border-radius: 0;margin:0 ; width:90px;height:75px;}
+span.new {color: #fff !important;padding: 0 4px; font-size: 11px;margin-left:5px; background: #fa3102;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;  }
+#content h2.widget_title {text-shadow: none !important;font-size: 12px;}
+.details {border-top: 1px dotted #888; padding-top: 2px;margin-top: 15px;}
+img.wp-post-image, .gallery-item img { border: 0px  !important; border-radius: 0px;padding: 0px;}
+#content div.resume_header p.meta { font-family: arial,tahoma,verdana; font-size: 1em; font-style: normal;margin: 0.625em 0 1.25em; padding: 0;}
+#content div.resume_header img {outline: 0px solid #FFFFFF;padding:0px; }
+ol.resumes dd {color: #555}
+.pagetitle { margin: 5px 0 10px !important;} #sidebar {display: inline !important;   float: right; margin-top: 0px}
+.sidebarhome{display: inline !important;   float: right; margin: 0px 0px 0 0; }
+.shadowblock ,.shadowblock-h { border: 0px solid #E4E4E7; border-radius: 3px;-webkit-border-radius: 3px; -moz-border-radius: 3px;padding: 10px 5px 5px 5px;}
+.shadowblock-h { border: 0px }
+ul.widgets li.widget ul {padding: 8px 0 0 !important}
+ul.widgets li.widget .widget_content {overflow:visible;font-size: 12px;padding: 0 3px;}
+ul.widgets li.widget.ul.widgets li.widget.widget-nav ul.display_section{margin:0 0 -1px 8px !important;padding:0!important}
+ul.widgets li.widget.widget-nav div{background:none repeat scroll 0 0;border:1px solid #E4E4E7;border-radius:3px 3px 3px 3px;margin:-1px 0 0px;padding:2px}
+.separate-2,.separate-1{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/dotted_line.gif) repeat-x scroll 0 0 #E7E7E7;clear:both;height:2px;width:600px;margin:0}
+.separate-2{background:none;}
+#logoso,#logoso2 , #logoso3 {float:left;list-style:none!important;background:#fff!important;width:90px;height:75px;border:1px solid #E4E4E7;border-radius:3px 3px 3px 3px;overflow:hidden;margin-right:5px;margin-left:0!important;padding:1px!important}
+#logoso2{float:right;}
+#logoso3 {margin-left: 4px !important}
+ul.display_section li a{font-weight:400;color:#333}
+ul.widgets li.widget.widget-nav div div{border:0}
+ul.widgets li.widget.widget-nav div ul,ul.widgets li.widget.widget-nav div ul li{list-style:none outside!important;line-height:24px!important;margin:0!important;padding:0}
+ul.widgets li.widget.widget-nav form {padding: 5px;}
+.widget_content ul li {display:text-decoration:none!important;color:#666;padding:0px}
+.widget_content ul.pop li{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px center;display:text-decoration:none!important;color:#666;padding:0px}
+.widget_content ul.pop li a{display:block;zoom:1;text-decoration:none!important;color:#666;background:#fff url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px center;padding:2px 4px 2px 22px}
+.widget_content ul li a:hover{color:#027959}
+.widget_content li a{}
+.widget_content li.logos { margin:1px !important;padding: 0px !important}
+.widget_content li.logos a {padding-left: 0px !important;}
+ul.widgets li.widget.widget-nav div ul li a{color: #333;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px center;}
+ul.widgets li.widget.widget-nav div ul li a:hover{color: #d4019b;}
+ul.widgets li.widget ul ul li {margin: 0 5px !important;line-height: 5px;}
+ul.widgets li.widget ul ul li a {line-height: 15px;}
+#content h2.widget_title {margin: 0px;padding-top: 8px;}
+ul.widgets li.widget.widget-nav div ul li a.top{display:block;zoom:1;text-decoration:none!important;color:#333;background:#fff url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px center;border-bottom:0;padding:4px 4px 4px 12px}
+ul.widgets li.widget.widget-nav div ul li a.top:hover{background-color:#f5f5f5;border-radius:2px 2px 2px 2px}
+ul.widgets li.widget.widget-nav div ul li ul{background:#eee;border-radius:3px 3px 3px 3px;padding:7px 5px 5px!important}
+ul.widgets li.widget.widget-nav div ul li ul li{margin-bottom:2px!important}
+ul.widgets li.widget.widget-nav div ul li ul li a{line-height:2em;display:block;zoom:1;text-decoration:none!important;background:#fff;padding:0 10px}
+ul.widgets li.widget.widget-nav div ul li ul li a:hover{color:#0184bb}
+ul.widgets li.widget.widget-nav ul.job_tags{overflow:hidden;zoom:1;margin:0;padding:10px!important}
+ul.widgets li.widget.widget-nav ul.job_tags li{float:left;margin:2px!important}
+ul.widgets li.widget.widget-nav ul.job_tags li a{color:#333;float:left;background:#f2f1e9;border-radius:2px 2px 2px 2px;border-right:1px solid #eee;font-size:.75em;text-decoration:none!important;text-shadow:0 1px 0 #E8E8E8;padding:0 .5em!important}
+ul.widgets li.widget.widget-nav ul.job_tags li a:hover{background:#f2f1e9;color:#0341a7}
+ul.widgets li.widget.widget-nav form input.text,ul.widgets li.widget.widget-nav form select{width:90%!important}
+ul.widgets li.widget.widget-nav form label{float:none;display:block;padding:0!important}
+ul.widgets li.widget.widget-nav {font-size: 1em;padding: 5px 5px 1px 0;}
+ul.widgets li.widget-submit { border-bottom: 0px; border-top: 0 none;padding: 0;}
+ul.widgets li.widget {border-bottom: 0px; padding: 1px 0;}
+ul.ads li { margin-right:1px !important; margin-left: 3px}
+ul.widgets li.widget ul.pop li, .widget_login_links ul li ,.widget_top_listings_overall ul li , .widget_archive ul li, .widget_links ul li, .widget_recent_entries ul li, .widget_recent_comments ul li, .widget_meta ul li, .widget_rss ul li, .widget_categories ul li, .widget_pages ul li, .widget_job_categories ul li, .widget_top_ads_overall ul li, .widget_top_ads ul li, .widget_user_options ul li , .widget_top_listings ul li{  background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat scroll left 10px transparent; border-top: 1px dotted #D8D8D8; display: block;font-size: 12px;line-height: 1.6em;list-style: none outside none !important; padding: 3px 0 4px 12px;}
+ul.ads li img {display: block; margin: 1px;}
+ul.widgets li.widget h2.widget_title {padding-left: 5px;font-size: 12px;padding-top: 8px;}
+.widget_content ul li,.widget_content ul.pop li{background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px 11px;display:text-decoration:none!important;color:#666;padding-left: 13px;}
+ul.widgets li.widget-submit div {  width: 252px;}
+ul.widgets li.widget ul ul li{background: none !important;} ul.widgets li.widget-submit {padding: 0;border-top: 0;}
+ul.widgets li.widget-submit div {text-align: center;margin: 5px 0 0px !important;padding: 3px !important;background: #f8f6f6;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border: 1px solid #d7d5d5;}
+ul.widgets li.widget-submit div p {margin: 6px 0 !important;color: #333;}
+ul.widgets li.widget-submit div p.pricing {font-size: 1.3em;font-style: italic;color: #999;line-height: 1em;}
+ul.widgets li.widget-submit div p.pricing em {font-family: arial,tahoma,verdana;font-size: 1.4em;color: #555;font-style: normal;}
+a.button-s {border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;display: block;text-align: center;font-weight: bold;color: #fff !important;text-decoration: none;padding: 2px;line-height: 30px;font-size: 14px;
+background: #0482b6;border: 1px solid #0276a7;box-shadow: 0 1px 0 0 #039cdb inset;color: #fff;display: block;padding: 2px 2px;text-decoration: none;}
+a.button-s span {	border: 0px dashed #4f6c98;display: block;border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;font-size: 15px;}
+a.button-s:hover {background: #0273a1;;border: 1px solid #006792; color: #fff !important}
+a.button-s:hover span {border-color: #ddd;}
+.widget_content ul li a:hover , ul.widgets li.widget li.menu-item  a:hover{color:#034bb8}
+.tabi { float: left;
+margin-left: -6px;
+margin-top: 4px;} form.main_form textarea{vertical-align:top;height:200px;width:600px;font-size:1.1em;font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif}
+form.account_form input.text3,form.main_form input.text,form.main_form textarea,form.account_form input.text,form.account_form input.text2,#apply_form textarea{border-top:1px solid #aaa;border-left:1px solid #aaa;border-bottom:1px solid #ccc;border-right:1px solid #ccc;background:#fff;width:50%;outline:0;-khtml-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#333;font-family:arial;font-size:12px;margin:1px 0;padding:5px}
+form.account_form input.text  {width: 92%}
+form.main_form select{font-size:12px;font-family:arial;color:#333;width:52%;-khtml-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border-top:1px solid #aaa;border-left:1px solid #aaa;border-bottom:1px solid #ccc;border-right:1px solid #ccc;margin:6px 0;padding:5px}
+form.main_form textarea,#apply_form textarea{width: 670px;}
+form.main_form p, form.account_form p { padding: 0 2px !important;}
+form.main_form p, form.account_form p { line-height: 30px;clear: both;margin: 0 0 5px !important;overflow: hidden;padding: 0 2px !important;}
+form.main_form p label { padding-top: 0;}
+form.filter {background: none repeat scroll 0 0 #FBFBFB; border: 1px solid #DDDDDD;font-size: 1em;padding: 12px 15px 5px 15px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ;border-radius: 2px; font-family: arial,tahoma,verdana;}
+form.filter .submit, form.main_form .submit,form.main_form .input#geolocation-load , #commentform #submit,form.main_form .goback:hover,form.main_form .submit,form.main_form .goback,form.account_form .submit,.submit-resume,form.account_form .submit2,p.button a{border-left:1px solid #BBB;border-right:1px solid #BBB;border-top:1px solid #BBB;border-bottom:1px solid #999;background:#DDD url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg-btn.gif) repeat-x 0 0;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;box-shadow:0 1px 0 #F8F8F8;color:#333!important;cursor:pointer;display:inline-block;overflow:hidden;text-decoration:none!important;text-shadow:0 1px #F0F0F0;font-style:normal;font-variant:normal;font-weight:700;line-height:15px;font-size:12px;font-family:Helvetica Neue, Arial, Lucida Grande, Sans-serif;margin: 0 3px 0 0;;padding:5px 9px}
+form.filter .submit {margin-top:-3px;}
+form.filter .submit:hover,form.filter .submit:focus,#commentform #submit:hover,#commentform #submit:focus,form.main_form .submit:hover,form.main_form .goback:hover,form.filter .submit:focus,form.account_form .submit:hover,form.account_form .submit2:hover,p.button a:hover{color:#000;text-decoration:none!important;border-color:#999 #999 #666;background:#DDD url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg-btn.gif) repeat-x 0 -6px; }
+form.account_form .submit2{border-left:1px solid #BBB;border-right:1px solid #BBB;border-top:1px solid #BBB;border-bottom:1px solid #999;background:#DDD url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg-btn.gif) repeat-x 0 0;border-radius:3px;margin-left:85px;margin-top:10px}
+form.account_form .submit-resume{border-left:1px solid #BBB;border-right:1px solid #BBB;border-top:1px solid #BBB;border-bottom:1px solid #999;background:#DDD url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg-btn.gif) repeat-x 0 0;border-radius:3px;border:1px solid #000;margin-left:85px;margin-top:10px}
+form.account_form a.lostpass{float:left;padding:10px 20px}
+form.main_form legend { margin:0px 0 0;}
+#commentform textarea {border-radius: 3px; width: 97.5%;}
+#pass-strength-result {width: 91%;}
+.shadowblock2 #pass-strength-result {width: 50%;}
+a.button, form.filter .submit, #commentform #submt, form.main_orm .gobak:hover, form.main_form .submit, form.main_form .goback, form.account_form .submit, form.main_form .button, .submit-resume, form.account_form .submit2, p.button a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/bg-btn.gif) repeat-x scroll 0 0 #DDDDDD;
+border-color: #BBBBBB #BBBBBB #999999;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+box-shadow: 0 1px 0 #F8F8F8;
+color: #333333 !important;
+cursor: pointer;
+display: inline-block;
+font-family: Helvetica Neue,Arial,Lucida Grande,Sans-serif;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: 700;
+line-height: 15px;
+margin: 0 3px 0 0;
+overflow: hidden;
+padding: 5px 9px;
+text-decoration: none !important;
+text-shadow: 0 1px #F0F0F0;
+}
+#geolocation-map  , #map_wrap{width: 97%}
+#map-google{display: block;width: 99.8%; height: 240px; margin-top: 4px;-webkit-border-radius: 2px;border-radius: 2px; border: 1px solid #CAC2BA}
+img{	border: 0;}    
+.contentMap{overflow: auto;width: 200px;overflow: hidden;}   
+.contentImg{float: left;margin-right: 5px;text-align: center;}    
+.contentImg a{color: #369;	font-size: 15px;}    
+.contentTxt{font-weight: bold; float: left;font-size: 13px;width: 100%;}    
+.contentTxt a{font-weight: bold;color: #125396}   
+.contentTxt a:hover{color: #333}   
+.clear{ clear: both; }
+.contentImg > img {
+float: left;
+height: 60px;
+min-width: 60px;
+} #container{	height: 280px;margin-bottom: 5px;}
+#featured-slider {float:left;width:705px; height:240px;margin:15px 10px 10px 0px;position:relative;}
+#featured-slider #slides {top:0px;left:0px;	z-index:100;border: 1px solid #e7e6e6;}
+#featured-slider .slides_container {width:703px;overflow:hidden;position:relative;display:none;background:#FFF;	z-index: 0;}
+.slide a {text-indent: -9999px}
+#featured-slider .slides_container div.slide {width:703px;height:240px;	display:block;}
+#featured-slider .caption22 {z-index:500;top: 30px; left:520px;height:220px;	width:240px;font-size:12px;	line-height:16px;color:#000;	border: 1px solid #000;float:left;	}
+#featured-slider .caption h2 {font-size:18px;line-height:22px;margin-bottom:10px;}
+#featured-slider #slides .next, #slides .prev {position: absolute;top:86px;left:-7px;width:15px;height:44px;display:block;z-index:101;text-indent:-99999em;	background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/lefto.png);}
+#featured-slider #slides .next {left:697px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/righto.png);}
+#featured-slider #slides .next:hover {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/righto.png) 45px 0;}
+#featured-slider #slides .prev:hover {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/lefto.png) 45px 0;}
+.caption2 {	z-index:50010;position:absolute;bottom:-35px;left:0;height:22px;padding:5px 20px 0 20px;background:#000;background:rgba(0,0,0,.5);line-height:1.33;color:#fff;	border-top:1px solid #000;	text-shadow:none;	width: 664px;font-size: 12px;font-family: arial,tahoma,verdana}
+.caption2 a {color: #f0ff00;}
+.caption2 a:hover {color: #fff;}
+.slides_container div.slide {width:570px;height:270px;display:block;} #slides ul.pagination {	margin:0px auto 0 !important;width:100px;}
+.pagination li {float:left;margin:0 1px;list-style:none;margin-top:8px !important;}
+.pagination li a {display:block;height:0;padding-top:12px;background: transparent url(//tem-trading.com/jobs/wp-content/themes/jobsapp/img/pagination.png);
+background-position:0 0;float:left;overflow:hidden;
+width: 12px;text-indent: -9999px;}
+.pagination li a:hover {background-position:0 -24px;}
+.pagination li.current a {background-position:0 -12px;border: 0 ;width: 12px;padding: 0px !important;height: 12px; }
+ul.display_section2{background:#f5f5f2; overflow:hidden;zoom:1;list-style:none outside!important;margin:0 0 -1px!important;padding:0!important;border-bottom: 1px solid #dddddd;}
+ul.display_section2 li{float:left;margin-right:2px;font-size:.75em;padding:8px 20px;width: 42;text-align:center;}
+ul.display_section2 li.active,ul.display_section2 li{font-size:11px;font-weight:400;padding:8px 20px}
+ul.display_section2 li.active{background:transparent;margin-top: 0px}
+ul.display_section2 li:hover{background:#f5f5f2}
+ul.display_section2 li a{color:#333333; font-size: 12px;text-shadow: 1px 1px 1px #cfcece;filter: dropshadow(color=#e0e0e0, offx=1, offy=1);}
+ul.display_section2 li a:hover{color:#ed0101}
+ul.display_section2 li a:focus{color:#ed0101; } div#footer .inner {padding: 0px 0;}
+div#footer a , div#footer p {color: #fff;text-decoration: none !important;}
+div#footer .inner {border: 0 !important;}
+div#footer a:hover {color: #FDFA04;}
+#footer-widget {width: 31%;margin-right:5px; float:left;overflow: hidden;margin-bottom: 5px;}
+#footer-widget  .widget_content li , #footer li.widget-nav  li  {line-height: 2em;padding-left: 12px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat scroll 5px 9px;}
+#footer-widget  .widget_content li  ul{margin: 0px 0 0 8px;}
+#footer-widget  .widget_content li  li{line-height: 2em;padding-left: 6px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat scroll 5px 9px;}
+#footer-widget ul , #footer  .inner  li#footer-widget , div#footer  .widget_content ul{list-style: none;}
+#footer li {list-style: none !important ; font-size: 12px;}
+#footer li.widget-nav {width: 31%;float:left}
+#footer li.widget-nav  li{line-height: 2em;}
+#footer-widget ul li a { padding-left: 0px;background: transparent !important}
+#footer-widget ul li.jta-tweet-list-item  {background:none; }
+#footer-widget ul li.jta-tweet-list-item a  {color: #fff }
+#footer h2.widget_title {font-size: 13px; font-weight: bold;margin: 5px; }  a#gridview.switcher , a#listview.switcher { padding: 4px 11px ; height: 23px; width: 24px;  text-indent: -9999px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/grid.jpg) no-repeat scroll 0px 0px;}
+#gridview.switcher , a#listview.switcher {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/list.jpg) no-repeat scroll 0px 0px;}
+a#gridview.switcher.active , a#listview.switcher.active  { background-position: 0 -24px}
+ul.list { list-style: none; width: 100%; }
+ul.list div.grids{ display: none }
+ul.grid div.lista {display: none}
+ul.list li { display: block;  }
+ul.list li.alt { background: #d7dfe0; }
+ul.list li section.left { display: block; float: left;  position: relative;  }
+ul.list li section.right { display: block; float: right;  }
+ul.list li section.left img.thumb { float: left; margin-right: 10px; }
+ul.list li section.left img.featured-banner { position: absolute; left: -18px; top: 35px; }
+ul.list li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.6em; } 
+ul.list li section.left span.meta { color: #93989b; font-weight: normal; font-size: 1.1em; }
+ul.list li section.right span.price { font-weight: bold; display: block; margin-bottom: 15px; color: #ad3939; font-size: 1.6em; text-align: right; }
+ul.list li section.right a.firstbtn { margin-right: 7px; } ul.grid { list-style: none; margin: 0 auto; width: 100% }
+ul.grid li { position: relative; display: block; float: left;  }
+ul.grid li.third { border: 0; }
+ul.grid li.grido {  }
+.ul.grid div.grids{ display: block;   float:left; line-height: 15px;}
+.ul.grid div.grids a{ color: #555; line-height: 10px;}
+ul.grid div.grids {margin-top: -3px;line-height: 16px;}
+ul.grid div.grids a{color: #555 !important ; font-weight: normal !important;}
+ul.grid div.grids a:hover{color: #0087A4 !important;}
+ul.grid li section.left { position: relative; }
+ul.grid li section.right { }
+ul.grid li section.left img.featured-banner { position: absolute; top: 0; }
+ul.grid li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.5em; } 
+ul.grid li section.left span.meta { display: block; color: #93989b; font-weight: normal; font-size: 1.1em; margin-bottom: 7px; }
+ul.grid li section.right span.price { font-weight: bold; display: block; margin-bottom: 5px; color: #ad3939; font-size: 1.75em; }
+ul.grid li:hover section.right span.darkview { opacity: 1; }
+ul.grid li section.right span.darkview a.firstbtn { display: block; margin-bottom: 10px; }  a#gridview2.switcher , a#listview2.switcher { padding: 5px 11px ; height: 23px; width: 24px;  text-indent: -9999px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/grid.jpg) no-repeat scroll 0px 0px;}
+#gridview2.switcher , a#listview2.switcher {background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/list.jpg) no-repeat scroll 0px 0px;}
+a#gridview2.switcher.active , a#listview2.switcher.active  { background-position: 0 -24px}
+ul.list2 { list2-style: none; width: 100%; }
+ul.list2 div.grids{ display: none }
+ul.grid2 div.lista {display: none}
+ul.list2 li { display: block;  }
+ul.list2 li.alt { background: #d7dfe0; }
+ul.list2 li section.left { display: block; float: left;  position: relative;  }
+ul.list2 li section.right { display: block; float: right;  }
+ul.list2 li section.left img.thumb { float: left; margin-right: 10px; }
+ul.list2 li section.left img.featured-banner { position: absolute; left: -18px; top: 35px; }
+ul.list li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.6em; } 
+ul.list li section.left span.meta { color: #93989b; font-weight: normal; font-size: 1.1em; }
+ul.list li section.right span.price { font-weight: bold; display: block; margin-bottom: 15px; color: #ad3939; font-size: 1.6em; text-align: right; }
+ul.list li section.right a.firstbtn { margin-right: 7px; } ul.grid2{ list-style: none; margin: 0 auto; width: 100% }
+ul.grid2 li { position: relative; display: block; float: left;  }
+ul.grid2 li.third { border: 0; }
+ul.grid2 li.grido {  }
+.ul.grid2 div.grids{ display: block;   float:left; line-height: 15px;}
+.ul.grid2 div.grids a{ color: #555; line-height: 10px;}
+ul.grid2 div.grids {margin-top: -3px;line-height: 16px;}
+ul.grid2 div.grids a{color: #555 !important ; font-weight: normal !important;}
+ul.grid2 div.grids a:hover{color: #0087A4 !important;}
+ul.grid2 li section.left { position: relative; }
+ul.grid2 li section.right { }
+ul.grid2 li section.left img.featured-banner { position: absolute; top: 0; }
+ul.grid2 li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.5em; } 
+ul.grid2 li section.left span.meta { display: block; color: #93989b; font-weight: normal; font-size: 1.1em; margin-bottom: 7px; }
+ul.grid2 li section.right span.price { font-weight: bold; display: block; margin-bottom: 5px; color: #ad3939; font-size: 1.75em; }
+ul.grid2 li:hover section.right span.darkview { opacity: 1; }
+ul.grid2 li section.right span.darkview a.firstbtn { display: block; margin-bottom: 10px; } .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+#wrap  .switch{float:right;margin-bottom: -41px;margin-top: 18px;margin-right: 8px;position: relative;z-index: 1000;}
+#viewport{
+width: 952px; 
+float:left;
+margin-right:1px;
+overflow:hidden; }
+#viewport ul{
+position: relative; 
+padding: 0; 
+}
+#viewport li{
+height: 50px;
+float: left;
+list-style: none; 
+text-align:center;
+}
+#simplePrevious, #simpleNext{
+cursor: pointer;
+font-size: 0.8em;
+text-decoration: underline;	
+float:left;
+padding: 0 5px;
+width: 8px;
+margin-top: 40px;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arrow-l.png) no-repeat scroll 0px 0px;
+text-indent: -9999px;
+height: 16px;
+}
+#simpleNext{
+float:right;
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arrow-r.png) no-repeat scroll 0px 0px;
+}
+#simpleNext:hover{	background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arrow-r.png) no-repeat scroll 0px -16px;}
+#simplePrevious:hover{	background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arrow-l.png) no-repeat scroll 0px -16px;}
+#jobad {float:right; min-width: 300px; pading-left: 10px; margin-right: 50px;}
+#jobad-bottom {margin: 0 auto ; width: 486px; margin-top: 5px;}
+#footer-ad , #header-ad ,#header-ad2 {width: 728px;  height: 90px;  padding-top: 5px;  margin: 0 auto ; margin-top: 5px; margin-bottom: 5px;border:0px solid #ddd ; }
+#header-ad {margin-bottom: 0px;margin-top: 0px; padding: 5px 0;}
+#header-ad2 {margin-bottom: 5px;margin-top: 8px;}
+#col{overflow:hidden; border:1px solid #ddd;height:auto;width:auto;padding-left:5px;margin:0!important; padding-top: 8px;}
+#col ul{padding:0!important}
+#col li.cato,#col li.cato a,#col li.wilaya,#col li.wilaya a{color:#333;font-weight: normal; float:left;list-style:none;padding-left:5px;line-height:24px!important;font-weight:none;width:205px;margin:0!important}
+#col li.cato,#col li.wilaya{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/small-arrow.gif) 0 9px no-repeat}
+#col li.cato a:hover,#col li.wilaya a:hover{color:#333}
+#col li.wilaya{width:140px}
+li.widget_categories li.current-cat a, li.widget_pages li.current_page_item a {
+font-weight: normal;
+}
+small.rss { margin: 2px 0 0;}
+p.jobs {
+margin-top :5px;
+}
+.undero ,.underos  { margin: -6px auto 0; width: 70% ; height: 10px;}
+.underos  { margin: -1px auto 0; }
+#margin {margin-top: 8px;}
+div.section_content {border: 0px; }
+.section_content h2 {font-size: 15px !important;}
+#backtotop {
+position: fixed;
+right:0px;
+bottom:30px;
+right: 20px;
+display:none; border: 1px solid #018AA9;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+background: #019bbc url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arri.png) center center no-repeat;
+}
+#backtotop a {
+text-decoration:none;
+border:0 none;
+display:block;
+width:20px;
+height:20px;
+}
+#backtotop a:hover {
+opacity:.8; }
+.clrb {
+clear:both;
+}
+#maindiv {
+width:700px;
+border:1px solid #999;
+margin:auto;
+padding:20px;
+}
+.footy { color: #000}
+.footy ul {width: auto !important;}
+.footy li {float:left;padding-left: 15px;}
+.adblock2 {margin: 15px 5px 5px 0}
+#exc-5 {
+float: left;
+line-height: 19px;
+margin-bottom: 0;
+margin-top: -4px;
+min-height: 45px !important;
+overflow: hidden;
+width: 588px;
+}
+.notice span {
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+display: block;
+font-weight: bold;
+margin: 15px 0px 0;
+padding: 10px 10px 10px 35px;
+}
+.notice.success span {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/tick.gif) no-repeat scroll 12px 50% #FFEEE6 ;
+border: 1px solid #FBCEB7 ;
+}
+.notice.success-pending span {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/icon-exclamation.png) no-repeat scroll 12px 50% #FFFBCC;
+border: 1px solid #E6DB55;
+}
+.notice.error span {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/icon-exclamation.png) no-repeat scroll 12px 50% #FFCCCC;
+border: 1px solid #FF0000;
+} #custom-footer {
+border-top: 0px solid #ccc;
+min-height: 100px;
+display: block;
+}
+#custom-footer .cf-inner {
+margin: 0 auto;
+text-align: left;
+width: 990px;
+}
+#custom-footer div > li {
+list-style:none;
+}
+#custom-footer li > h2 {
+padding: 15px 0;
+padding: 15px 0;
+font-weight: bold;
+font-size: 13px;
+}
+.cf-column {
+min-height: 160px;
+float: left;
+padding: 0 10px;
+}
+.cf-column:not(:first-child) {
+border-left: 0px solid #DEDEDE;
+padding-left: 10px;
+}
+.cf-copyright {
+border-top: 0px solid #ccc;
+text-align: center;
+padding: 20px 0;
+}
+#cf-col-1 {
+width: 300px;
+}
+#cf-col-2 {
+width: 300px;
+}
+#cf-col-3 {
+width: 300px;
+}
+#cf-col-4 {
+width: 200px;
+}
+.cf-column ul li { background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat scroll left center transparent; border-top: 1px dotted #D8D8D8; display: block;font-size: 12px;line-height: 1.6em;list-style: none outside none !important; padding: 5px 0 5px 8px;}
+.col-1 h2 , .col-2 h2 {font-size: 12px !important;font-weight: bold;}
+.oldie .rego1, .oldie .rego2, .oldie .rego3 {margin-top: 12px;}
+#content .job-pack {
+-webkit-border-radius: 3px;
+border-radius: 3px; 
+width: 648px;
+}
+#content .job-pack-title h2 {
+font-size: 17px !important;
+padding: 12px 30px 13px 0;
+text-shadow: 0 0px 0 #1D330D !important;
+}
+#content .job-pack-title h2  span{
+font-size: 17px !important;
+}
+#content .job-pack .categories-list {
+margin-top: 0 !important;
+}
+#content .job-pack-choose {
+background-color: #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+padding: 7px 20px 6px;
+}
+#content .job-pack-choose label {
+color: #016fb4;
+font-size: 1.2em;
+}
+blockquote {
+margin: 10px !important;
+padding: 5px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #ddd;
+}
+blockquote p, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5 {
+font-size: 12px;
+font-style: normal;
+margin: 10px 0;
+font-family:arial,tahoma,verdana;
+}
+#content .job-packs-user, #content .job-packs-new {
+margin-bottom: 15px;
+}
+blockquote h2  {
+color: #333;
+font-size: 12px;
+font-weight: bold;
+}
+blockquote h3  {
+font-size: 12px !important;
+font-weight: bold;
+}
+label#lefty {float : left !important;width: 100px;margin-top: 5px;}
+#lefty {float :left !important;width: 100px;height: 1px;}
+#lefty1 {float :left !important;}
+ul.widgets li.widget.widget-nav form input.text2{width:150px!important;margin-top: 2px !important;}
+a.lostpassy {line-height: 25px;}
+h2.register {background: #f5f5f2 ; -webkit-border-radius: 2px; border: 1px solid #e5e5e3;
+border-radius: 2px;-moz-border-radius: 2px;color: #444;padding: 7px;font-size: 12px !important;}
+h2.already {margin-top: 8px;border: 1px solid #fbceb7; background: #ffeee6 ; -webkit-border-radius: 2px;
+border-radius: 2px;color: #333;padding: 7px;font-size: 12px !important;}
+h2.already a {color: #cc0000 !important}
+h2.already a:hover {color: #2e1707 !important}
+.desca ul {list-style: none !important ; margin-left: 10px !important; }
+#content h3.como {padding:5px 6px;color:#ff6600;font-size: 12px;margin:0 !important;font-weight: bold; }
+#logina {border: 1px solid #e5dfd8;padding: 8px;height:200px;background: #f7f5f2; margin-top: 40px;-webkit-border-radius: 3px;
+border-radius: 3px;}
+#stro ,#stro2  {float:left;width: 12px; height: 7px;margin-top: -6px;margin-left:427px;}
+#stro2  {margin-left:123px;}
+.desc ul{list-style: none;}
+.desc li{background:#fff url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat 5px center;padding:2px 4px 2px 12px}
+.desca {}
+#brasil {margin-top: 45px;height: 350px; width: 350px;background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/brasil.jpg) no-repeat scroll 0px 0 transparent; }
+.col-2 {
+border-left: 1px solid #EBEBEB;
+float: right;
+padding-left: 8px;
+width: 40%;
+}
+.col-1 {
+float: left;
+width: 58.5%;
+}
+.home-content { margin: 0px 0 5px;overflow: hidden;padding-top: 5px; }
+.home-image{border: 0px solid #000; margin: 5px 0;float:left;  }
+.home-image img {margin: 0px 5px 5px 0; padding: 4px; border: 1px solid #ddd ; -webkit-border-radius: 3px;border-radius: 3px;}
+.catsi{margin: 10px 5px 5px 5px ; border-top: 1px solid #ebebeb; padding-top: 5px  }
+#dashboard h3 {
+color: #0260b7;
+font-size: 1.1em;
+font-weight: bold;
+line-height: 1.25em;
+margin-bottom: 0.5em;
+}
+#login-country{ min-height: 350px; margin-top: 45px; width: 400px;overflow:hidden;}
+#location a {font-weight: normal ; }
+p {
+font-size: 1em;
+line-height: 1.54em;
+margin: 5px 0 1.54em !important;
+}
+.rss-balloon a , .twitter-balloon a {
+font-weight: bold;
+font-size:12px;
+text-shadow: 0px;
+}
+.rss-balloon , .twitter-balloon {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rss-baloon.jpg) no-repeat scroll 98% 5px transparent;
+margin-bottom: 10px;
+margin-top: -5px;
+padding: 5px;
+}
+.twitter-balloon {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twitter-baloon.jpg) no-repeat scroll 98% 5px transparent ;
+}
+.cf-column li.rss-balloon , .cf-column li.twitter-balloon {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/rss-baloon.jpg) no-repeat scroll right 5px transparent;
+margin-bottom: 10px;
+margin-top: -5px;
+padding: 0 0 5px;
+}
+.cf-column li.twitter-balloon {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/twitter-baloon.jpg) no-repeat scroll right 5px transparent;
+}
+.cf-column li.logos {padding: 0;background: none;}
+.lkdn_button_revoke {margin-top: -20px !important}  .jr_fx_social {
+padding: 2px !important;
+}
+.jr_fx_social a {
+color: #FC4903 !important;
+font-size: 12px !important;
+font-weight: bold !important;
+text-shadow: 1px 1px 0 #EBEBEB !important;
+padding-left: 4px !important;
+}
+.jr_fx_social span  {
+font-size: 12px !important;
+font-weight: bold !important;
+color: #444 !important;
+}
+.jr_fx_social a {
+color: #444444;
+font-size: 17px;
+font-weight: bold;
+text-shadow: 1px 1px 0 #EBEBEB;
+}
+.jr_fx_social_fb , .jr_fx_social_buzz, .jr_fx_social_youtube {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/facebook-icon.png) no-repeat scroll right 5px transparent !important;
+margin-top: 10px;
+}
+.jr_fx_social_buzz {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/google-icon.png) no-repeat scroll right 5px transparent !important;
+}
+.jr_fx_social_youtube {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/youtube-icon.png) no-repeat scroll right 5px transparent !important;
+}
+.cf-column li.jr_fx_social_fb , .cf-column li.jr_fx_social_buzz, .cf-column li.jr_fx_social_youtube {
+padding-bottom: 10px;
+}
+p.button {border:0 !important;background: none !important;}
+table.data_list td.days { font-size: 1em; padding: 8px;}
+ol.jobs dl { font-size: 1em;}
+ul.widgets li.widget.widget-nav {border: 0px !important}
+ul.widgets li.widget {width: 258px;}
+ul.widgets li.widget-submit {border: 0px !important;}
+ul.widgets li.widget { margin: 2px 0; border: 1px solid #E4E4E7; border-radius: 3px;-webkit-border-radius: 3px; -moz-border-radius: 3px;} ul.widgets li.widget li.menu-item {
+line-height: 20px !important;
+list-style: none !important;
+margin: 0 !important;
+padding: 0;
+}
+ul.widgets li.widget li.menu-item  a {
+border-bottom: 0 none;
+color: #333333;
+display: block;
+padding: 4px 4px 4px 12px;
+text-decoration: none !important;
+}
+.search-widget {border: 1px solid #000; }
+.header-ino {  min-height: 130px;padding-bottom: 5px;margin:2px 2px 0px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px; background: #0194b3 url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/header-bg.png) repeat;   }
+.under-menu {height: 30px;background: #0194b3 url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/under-menu.png) repeat-x;margin-bottom: -15px; }
+#stk, #stk1, #stk2 {
+color: #E8E5E0;
+float: left;
+font-family: arial;
+font-size: 11px;
+margin: 5px 0 0 120px;
+width: 248px;
+}
+#stk1 {
+width: 235px;
+margin: 5px 0 0 10px;
+}
+#stk2 {
+margin: 5px 0 0 10px;
+}
+#home-lefts {float: left ; border: 1px solid #000}
+#wrap > ul {
+margin: 0;
+}
+ul.widgets li.widget-submits {list-style: none outside none;}
+ul.widgets li.widget-submits div {
+background: none repeat scroll 0 0 #F8F6F6;
+border: 1px solid #D7D5D5;
+border-radius: 3px 3px 3px 3px;
+margin: 5px 0 0 !important;
+padding: 3px !important;
+text-align: center;
+}
+#boto{height:36px;margin-top: 00px;}
+#line{height:13px;background: #017F9A;height:6px;margin-top: 5px;margin-left: 7px ; margin-right: 7px;width: 955px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;
+-webkit-box-shadow: inset 1px 1px 2px 1px #004d5d;
+box-shadow: inset 1px 1px 2px 1px #004d5d; }
+div#icon1 a,div#icon2 a,div#icon3 a,div#icon4 a,div#icon5 a{float:left;text-indent:-9999px;margin-left:10px;margin-top:7px;width:29px;height:26px;border:0 solid #000;background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) no-repeat}
+div#icon2 a{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -37px 0;margin-left:3px}
+div#icon3 a{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -73px 0 no-repeat;margin-left:3px}
+div#icon4 a{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -109px 0 no-repeat;margin-left:3px}
+div#icon1 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) 0 -26px no-repeat}
+div#icon2 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -37px -26px no-repeat}
+div#icon3 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -73px -26px no-repeat}
+div#icon4 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/ico.jpg) -109px -26px no-repeat}
+div#icon5 a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/icon5.jpg) no-repeat scroll 0 0 transparent;
+border: 0 solid #000000;
+float: right;
+height: 40px;
+margin-right: 22px;
+margin-top: 0px;
+text-indent: -9999px;
+width: 45px;
+}
+div#icon5 a:hover{background:url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/icon5.jpg) no-repeat 0 -40px ; }
+div#footer p,div#footer a , .jta-tweet-text , .jta-nodata , .jta-tweet-source-link{color:#fff;}
+div#footer{width:1007px;min-height:40px;border:0 solid #000;margin:10px auto 0;padding:0}
+div#footer ul {
+width: 90%;
+border: 0 solid #000000;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+margin: 0;
+}
+.jta-tweet-list-item  , .jta-tweet-list-item a{background: none !important;}
+.jta-tweet-list-controls {  margin: 0 !important;}
+.mapi {display: none !important}
+nav select { display: none; }
+p.button {border:0 !important;background: none !important;}
+table.data_list td.days { font-size: 1em; padding: 8px;}
+ol.jobs dl { font-size: 1em;}
+ul.widgets li.widget.widget-nav {border: 0px !important}
+ul.widgets li.widget {width: 258px;}
+ul.widgets li.widget-submit {border: 0px !important;}
+ul.widgets li.widget { margin: 2px 0; border: 1px solid #E4E4E7; border-radius: 3px;-webkit-border-radius: 3px; -moz-border-radius: 3px;} ul.widgets li.widget li.menu-item {
+line-height: 20px !important;
+list-style: none !important;
+margin: 0 !important;
+padding: 0;
+}
+ul.widgets li.widget li.menu-item  a {
+background: url(//tem-trading.com/jobs/wp-content/themes/jobsapp/images/arr.gif) no-repeat scroll 5px center #FFFFFF;
+border-bottom: 0 none;
+color: #333333;
+display: block;
+padding: 4px 4px 4px 12px;
+text-decoration: none !important;
+}
+.search-widget {border: 1px solid #000; }
+#availability_year {
+margin-top: 6px !important;
+}
+ul.pack_overview .cost {margin-top: 0px; font-weight: bold; font-size: 13px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+ul.pack_overview li {border: 0px;}
+a.button span {border: 0px; }
+.widget .button.buy-pack-small span {font-size: 12px;}
+ul.widgets li.widget ul.pack_overview li {background: none; padding-left: 5px;}
+.sidebarhome ul li {list-style: none;}
+#content h2.pagetitle {font-size: 13px; padding-top: 5px;}
+#custom-footer h1,#custom-footer h2,#custom-footer h3,#custom-footer h4,#custom-footer h5,#custom-footer h6,#custom-footer .pagetitle {color: #f24b01}
+#head-button { float:right; border: 1px solid #000;margin-top: 6px; }
+.tp-bannertimer.tp-bottom {
+background:#ddd;
+height: 3px  !important;;
+}
+.tp-bullets.simplebullets.round {}
+.tp-bullets.simplebullets.round .bullet {background: #fff; border: 1px solid #555 ; border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%; }
+.tp-bullets.simplebullets.round .selected {background: #fb4100;border: 1px solid #fb4100; border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%; }
+.tp-bullets.simplebullets.round .bullet {width: 8px !important; height: 8px !important; }
+.tp-simpleresponsive img {
+height: auto !important;
+width: auto !important;
+}
+.disnone { display: none !important }
+img.wp-post-image { width:90px; height: 80px;}
+#logoso3 > img { display: none}
+.mce-path-item.mce-last {
+display: none;
+}
