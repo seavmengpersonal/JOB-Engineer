@@ -139,9 +139,7 @@ function jr_top_nav_links( $items = '', $menu = null) {
 		if ( is_page( JR_Job_Submit_Page::get_id() ) ) $items .= ' current_page_item';	
 		$items .= '"><a href="'.get_permalink( JR_Job_Submit_Page::get_id() ).'">'.__('Post Job', APP_TD).'</a></li>';
 		
-	endif;
-	
-	
+	endif; 
 	$items .= '</ul>';
 	
 	return $items;

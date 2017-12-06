@@ -169,8 +169,7 @@
 	
 	 </div>
 	 
-		<div class='col-md-3'>
-		<h1>I'm the best.</h1> 
+		<div class='col-md-3'> 
 		<?php if (get_option('jr_show_sidebar')!=='no') get_sidebar('resume'); ?>
 	 </div>
 	</div>

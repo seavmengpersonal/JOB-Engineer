@@ -40,20 +40,17 @@ function jr_submit_resume_form( $resume_id = 0 ) {
 
 		<!--<p><?php _e('Enter your CV details below. Once saved you will be able to view your CV and optionally add links to your websites/social networks if you wish.', APP_TD); ?></p>-->
 	
-		<fieldset class="personal">
+		<div class="col-lg-12 col-md-12 well personal">
 			<legend style="display:none;"><?php _e('Personal Information', APP_TD); ?></legend>
-				<div class='col-md-12 col-lg-12'>
-				<div class='col-md-3 col-lg-3'>        
+			<legend><?php _e('Add CV', APP_TD); ?></legend>
+				<div class='col-md-12 col-lg-12'>      
 					   <p><label for="resume_name"><?php _e('CV Title', APP_TD); ?> <span title="required">*</span></label></p>
-				</div> 
-				<div class='col-md-5 col-lg-5'>
+				
 					<input type="text" class="text required form-control" name="resume_name" id="resume_name" placeholder="<?php _e('e.g. Mechanical Engineer', APP_TD); ?>" value="<?php if (isset($posted['resume_name'])) echo $posted['resume_name']; ?>" required/>
-				</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-5">
-					<p class="optional"><label for="your-photo"><?php _e('Photo (.jpg, .gif or .png)', APP_TD); ?></label> <input type="file" class="text" name="your-photo" id="your-photo" /></p>
-					</div>
+				</div> 
+				<div class="col-md-12"> 
+					<p class="optional"><label for="your-photo"><?php _e('Photo (.jpg, .gif or .png)', APP_TD); ?></label></p>
+					<input type="file" class="text" name="your-photo" id="your-photo" />
 				</div>
 <div class="hidden_field">
 <input type="hidden" name="r_firstname" class="text regular-text" id="first_name" value="<?php echo $userdata->first_name ?>" maxlength="100" />
@@ -103,188 +100,154 @@ function jr_submit_resume_form( $resume_id = 0 ) {
 <textarea  readonly rows="5" cols="30" class="short" style="height:100px;"><?php echo $userdata->r_address; ?></textarea>
 <input type="hidden" name="r_address" class="text regular-text" id="r_address" value="<?php echo $userdata->r_address; ?>"/></p>
                 </div>
-		</fieldset>
+		</div>
  
                 <p style="display:none;"><a class="submit edit_profile" style="background: #F68220; text-shadow:none; color:white !important; font-weight:500;" target="_blank" href="http://khmer-engineeringjob.com/my-profile/">Edit Profile →</a></p>
                
 		<!---career profile-->
-
-		<fieldset>
-                        
+ 
+		<div class="col-lg-12 col-md-12 well"> 
 			<legend><?php _e('Career Information', APP_TD); ?></legend>
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-			<p><label for="hire"><?php _e('Highest Qualification', APP_TD); ?> <span title="required">*</span></label> </p>
-			</div>
-			<div class='col-md-4'>
-				<select class='form-control' name="r_highest_qualification" id="r_highest_qualification" required>
-                                   <option value="">  Select... </option>
-				<?php
-				$job_types = get_terms( 'r_highest_qualification', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
-				if ($job_types && sizeof($job_types) > 0) {
-					foreach ($job_types as $type) {
-						?>
-						<option <?php if ( $posted['r_highest_qualification']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
-						<?php
+			<p>Enter details about the information below. Be as descriptive as possible so that potential candidates can find your job listing easily.</p>
+			<div class='col-md-12'> 
+					<p><label for="hire"><?php _e('Highest Qualification', APP_TD); ?> <span title="required">*</span></label> </p>
+				  
+					<select class='form-control' name="r_highest_qualification" id="r_highest_qualification" required>
+									   <option value="">  Select... </option>
+					<?php
+					$job_types = get_terms( 'r_highest_qualification', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
+					if ($job_types && sizeof($job_types) > 0) {
+						foreach ($job_types as $type) {
+							?>
+							<option <?php if ( $posted['r_highest_qualification']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
+							<?php
+						}
 					}
-				}
-				?>
-			</select> 
+					?>
+					</select>  
 			</div>
-			</div>
-			<div class='col-md-12'>
-			<div class='col-md-3'>
+			<div class='col-md-12'> 
 			<p><label for="hire"><?php _e('Latest Career Level', APP_TD); ?> <span title="required">*</span></label> </p>
-			</div>
-			<div class='col-md-3'>
+			  
 				<select name="r_level" id="r_level" class='form-control' required>
                                     <option value="">  Select... </option>
-				<?php
-				$job_types = get_terms( 'r_level', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
-				if ($job_types && sizeof($job_types) > 0) {
-					foreach ($job_types as $type) {
-						?>
-						<option <?php if ( $posted['r_level']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
-						<?php
+					<?php
+					$job_types = get_terms( 'r_level', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
+					if ($job_types && sizeof($job_types) > 0) {
+						foreach ($job_types as $type) {
+							?>
+							<option <?php if ( $posted['r_level']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
+							<?php
+						}
 					}
-				}
-				?>
-			</select>
+					?>
+				</select> 
 			</div>
-			</div>
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-			<p><label for="hire"><?php _e('Latest Industry', APP_TD); ?> <span title="required">*</span></label> </p>
-				</div>
-				<div class='col-md-5'>
+			<div class='col-md-12'> 
+				<p><label for="hire"><?php _e('Latest Industry', APP_TD); ?> <span title="required">*</span></label> </p>
+				  
 				<select name="r_industry" class='form-control' id="r_industry" required>
                                      <option value="">  Select... </option>
-				<?php
-				$job_types = get_terms( 'r_industry', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
-				if ($job_types && sizeof($job_types) > 0) {
-					foreach ($job_types as $type) {
-						?>
-						<option <?php if ( $posted['r_industry']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
-						<?php
-					}
-				} ?>
-			</select>
+					<?php
+					$job_types = get_terms( 'r_industry', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
+					if ($job_types && sizeof($job_types) > 0) {
+						foreach ($job_types as $type) {
+							?>
+							<option <?php if ( $posted['r_industry']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
+							<?php
+						}
+					} ?>
+				</select> 
 			</div>
-			</div>
-			<div class='col-md-12'>
-				<div class='col-md-3'>
-			<p><label for="r_position"><?php _e('Latest Position', APP_TD); ?> <span title="required">*</span></label></p>
-				</div>
-				 <div class='col-md-5'>
+			<div class='col-md-12'> 
+				<p><label for="r_position"><?php _e('Latest Position', APP_TD); ?> <span title="required">*</span></label></p>
+		
 				 <input type="text" class="text form-control" name="r_position" id="r_position" value="<?php echo esc_attr( $posted['r_position'] ); ?>" required/>
-				</div>
 			</div>
-			<div class="col-md-12">
-			<div class='col-md-3'>
-			<p><label for="r_salary"><?php _e('Latest Salary', APP_TD); ?></label> </p>
-			</div>
-			<div class="col-md-5">
-			<input type="text" class="text form-control" name="r_salary" id="r_salary" value="<?php echo esc_attr( $posted['r_salary'] ); ?>" />				
-             </div>
-			</div>
-			
-			<div class='col-md-12'>
-				<div class='col-md-5'>
+			<div class="col-md-12"> 
+				<p><label for="r_salary"><?php _e('Latest Salary', APP_TD); ?></label> </p>
+			 
+				<input type="text" class="text form-control" name="r_salary" id="r_salary" value="<?php echo esc_attr( $posted['r_salary'] ); ?>" />				
+             
+			</div> 
+			<div class='col-md-12' > 
 			   <p class="optional"><label for="your-file"><?php _e('CV File (.pdf, .zip or .doc)', APP_TD); ?></label></p>
 			   <input type="file" class="text" name="your-file" id="your-file" />
-			   </div>
 			</div>
-		</fieldset>
+		</div>
 
 		<!---end career profile-->
                 
                 <!---start job prefference profile-->
 
-		<fieldset>
-		     <legend><?php _e('Job Preference', APP_TD); ?></legend>
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-			 <p><label for="hire"><?php _e('Preferred Industry', APP_TD); ?> <span title="required">*</span></label> 
-			 </div>
-			<div class="col-md-5">
-			<select name="r_p_industry" id="r_p_industry" class='form-control' required>
-                             <option value="">  Select... </option>
-			<?php
-			$job_types = get_terms( 'r_industry', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
-			if ($job_types && sizeof($job_types) > 0) {
-			foreach ($job_types as $type) {?>
-			<option <?php if ( $posted['r_p_industry']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
-			<?php } } ?>
-			</select>
-			</div>
-			</div>
-		
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-		     	<p class="optional"><label for="r_pre_loc"><?php _e('Preferred Location', APP_TD); ?></label></p>
-			</div>
-			<div class='col-md-5'>
-			 <select name="r_pre_loc" id="r_pre_loc" class='form-control'>
-			<option value="" ><?php _e('Any', APP_TD); ?></option>
-			<?php
-			$job_types = get_terms( 'job_loc', array( 'hide_empty' => '0','orderby'=> 'slug', 'orderby' => 'description','order'=> 'ASC') );
-			if ($job_types && sizeof($job_types) > 0) {
-				foreach ($job_types as $type) {
-					?>
-					<option <?php if (isset($posted['r_pre_loc']) && $posted['r_pre_loc']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
-					<?php
-				}
-			}
-			?>
-			</select>
-			</div>
-			</div>
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-			<p class="optional"><label for="job_salary"><?php _e('Expected Salary', APP_TD); ?></label></p>
-			</div>
-			<div class='col-md-5'>
-			 <select name="job_salary" id="job_salary" class='form-control'>
-			<option value=""><?php _e('Any', APP_TD); ?></option>
-			<?php
-			$job_types = get_terms( 'job_salary', array( 'hide_empty' => '0', 'orderby' => 'description','order'=> 'ASC' ) );
-			if ($job_types && sizeof($job_types) > 0) {
-				foreach ($job_types as $type) {
-					?>
-					<option <?php if (isset($posted['job_salary']) && $posted['job_salary']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
-					<?php
-				}
-			}
-			?>
-			</select>
-			</div>
-			</div>
-			
-			<div class='col-md-12'>
-			<div class='col-md-3'>
-			
-			<p class="optional"><label for="job_type"><?php _e('Job Type', APP_TD); ?></label></p>
-			
-			</div>
-			<div class='col-md-5'>
-			<select name="job_type" id="job_type" class='form-control'>
-				<option value=""><?php _e('Any', APP_TD); ?></option>
+		<div class="col-lg-12 col-md-12 well"> 
+		    <legend><?php _e('Job Preference', APP_TD); ?></legend>
+			<p>Enter details about the Job Preference below. Be as descriptive as possible so that potential candidates can find your job listing easily.</p>
+			<div class='col-md-12'> 
+				<p><label for="hire"><?php _e('Preferred Industry', APP_TD); ?> <span title="required">*</span></label> 
+			  
+				<select name="r_p_industry" id="r_p_industry" class='form-control' required>
+								 <option value="">  Select... </option>
 				<?php
-				$job_types = get_terms( 'job_type', array( 'hide_empty' => '0', 'orderby' => 'description','order'=> 'ASC' ) );
+				$job_types = get_terms( 'r_industry', array( 'hide_empty' => false, 'orderby' => 'description','order'=> 'ASC' ) );
+				if ($job_types && sizeof($job_types) > 0) {
+				foreach ($job_types as $type) {?>
+				<option <?php if ( $posted['r_p_industry']==$type->name ) echo 'selected="selected"'; ?> value="<?php echo $type->name; ?>"><?php echo $type->name; ?></option>
+				<?php } } ?>
+				</select>
+			</div> 
+		
+			<div class='col-md-12'> 
+		     	<p class="optional"><label for="r_pre_loc"><?php _e('Preferred Location', APP_TD); ?></label></p>
+				<select name="r_pre_loc" id="r_pre_loc" class='form-control'>
+				<option value="" ><?php _e('Any', APP_TD); ?></option>
+				<?php
+				$job_types = get_terms( 'job_loc', array( 'hide_empty' => '0','orderby'=> 'slug', 'orderby' => 'description','order'=> 'ASC') );
 				if ($job_types && sizeof($job_types) > 0) {
 					foreach ($job_types as $type) {
 						?>
-						<option <?php if (isset($posted['job_type']) && $posted['job_type']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
+						<option <?php if (isset($posted['r_pre_loc']) && $posted['r_pre_loc']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
 						<?php
 					}
 				}
 				?>
-			</select>
+				</select> 
 			</div>
+			<div class='col-md-12'> 
+				<p class="optional"><label for="job_salary"><?php _e('Expected Salary', APP_TD); ?></label></p>
+				 
+				 <select name="job_salary" id="job_salary" class='form-control'>
+				<option value=""><?php _e('Any', APP_TD); ?></option>
+				<?php
+				$job_types = get_terms( 'job_salary', array( 'hide_empty' => '0', 'orderby' => 'description','order'=> 'ASC' ) );
+				if ($job_types && sizeof($job_types) > 0) {
+					foreach ($job_types as $type) {
+						?>
+						<option <?php if (isset($posted['job_salary']) && $posted['job_salary']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
+						<?php
+					}
+				}
+				?>
+				</select> 
 			</div>
 			
-			
-		</fieldset>
+			<div class='col-md-12'> 
+				<p class="optional"><label for="job_type"><?php _e('Job Type', APP_TD); ?></label></p>
+				<select name="job_type" id="job_type" class='form-control'>
+					<option value=""><?php _e('Any', APP_TD); ?></option>
+					<?php
+					$job_types = get_terms( 'job_type', array( 'hide_empty' => '0', 'orderby' => 'description','order'=> 'ASC' ) );
+					if ($job_types && sizeof($job_types) > 0) {
+						foreach ($job_types as $type) {
+							?>
+							<option <?php if (isset($posted['job_type']) && $posted['job_type']==$type->slug) echo 'selected="selected"'; ?> value="<?php echo $type->slug; ?>"><?php echo $type->name; ?></option>
+							<?php
+						}
+					}
+					?>
+				</select> 
+			</div> 
+		</div>
 
                 <!---end prefference profile-->
 				<!--<fieldset>
@@ -452,10 +415,10 @@ if($r_qualification!=""){
 <?php } } } ?>
 </div>
             <!-----start education ---->
-				<div class="clear"></div>
-				<br/>
-				<div class="col-lg-12 well">
+				<div class="clear"></div> 
+		<div class="col-lg-12 well">
 				<legend><?php _e('Add Education', APP_TD); ?></legend>
+				<p>Enter details about the Education below.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
@@ -546,6 +509,7 @@ if($language!=""){
                 </div> -->
 		<div class="col-lg-12 well">
 				<legend><?php _e('Add Language', APP_TD); ?></legend>
+				<p>Enter your language that you can use.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
@@ -696,6 +660,7 @@ if($r_company_name!=""){
 </div>-->
 		<div class="col-lg-12 well">
 				<legend><?php _e('Work Experience', APP_TD); ?></legend>
+				<p>Enter details about your job experience. Be as descriptive as possible so that potential candidates can find your job listing easily.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
@@ -720,6 +685,7 @@ if($r_company_name!=""){
 		</fieldset>-->
 		<div class="col-lg-12 well">
 				<legend><?php _e('Training (Short Course)', APP_TD); ?></legend>
+				<p>Enter details about the job below. Be as descriptive as possible so that potential candidates can find your job listing easily.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
@@ -750,6 +716,7 @@ if($r_company_name!=""){
 		</fieldset>-->
 		<div class="col-lg-12 well">
 				<legend><?php _e('Hobby', APP_TD); ?></legend>
+				<p>Please enter your favourite hobby or something you are interest to do.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
@@ -776,6 +743,7 @@ if($r_company_name!=""){
 		</fieldset>-->
 		<div class="col-lg-12 well">
 				<legend><?php _e('Referee', APP_TD); ?></legend>
+				<p>Enter details about the job below. Be as descriptive as possible so that potential candidates can find your job listing easily.</p>
 				<div class="col-sm-12 form-group">
 					<div class="wp_editor_wrapper">
 						<?php if ( 'yes1' == get_option('jr_html_allowed') && ! wp_is_mobile() ) { ?>
